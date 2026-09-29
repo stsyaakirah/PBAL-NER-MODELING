@@ -1,0 +1,8 @@
+RESUME {'c1': 0.3, 'c2': 0.03, 'dev_F1': np.float64(23.52)}
+TEST {'P': np.float64(48.54), 'R': np.float64(18.44), 'F1': np.float64(26.73), 'surfF1': 24.35}
+CV fold 0 33.93
+CV fold 1 37.82
+CV fold 2 38.17
+CV fold 3 45.2
+CV fold 4 42.42
+DONE

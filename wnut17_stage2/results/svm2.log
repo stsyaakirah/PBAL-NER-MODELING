@@ -1,0 +1,4 @@
+DEV {'C': 0.01, 'repair': {'P': np.float64(38.46), 'R': np.float64(44.26), 'F1': np.float64(41.16), 'surfF1': 41.04}, 'no_repair': {'P': np.float64(47.29), 'R': np.float64(41.75), 'F1': np.float64(44.35), 'surfF1': 41.04}}
+DEV {'C': 0.03, 'repair': {'P': np.float64(39.48), 'R': np.float64(43.54), 'F1': np.float64(41.41), 'surfF1': 41.35}, 'no_repair': {'P': np.float64(49.64), 'R': np.float64(40.79), 'F1': np.float64(44.78), 'surfF1': 41.35}}
+CHOICE {'C': 0.03, 'repair_better_on_dev': np.False_}
+DONE

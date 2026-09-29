@@ -1,0 +1,105 @@
+{'epoch': 1, 'loss': 6.240495779448086, 'sec': 37.1, 'dev_f1': np.float64(13.24), 'dev_P': np.float64(48.85), 'dev_R': np.float64(7.66)}
+{'epoch': 2, 'loss': 3.4021485124335245, 'sec': 6.5, 'dev_f1': np.float64(35.67), 'dev_P': np.float64(69.07), 'dev_R': np.float64(24.04)}
+{'epoch': 3, 'loss': 2.8805820014051817, 'sec': 6.3, 'dev_f1': np.float64(37.5), 'dev_P': np.float64(71.0), 'dev_R': np.float64(25.48)}
+{'epoch': 4, 'loss': 2.5685110610254385, 'sec': 6.5, 'dev_f1': np.float64(37.42), 'dev_P': np.float64(74.38), 'dev_R': np.float64(25.0)}
+{'epoch': 5, 'loss': 2.3429032233026295, 'sec': 6.3, 'dev_f1': np.float64(43.27), 'dev_P': np.float64(68.12), 'dev_R': np.float64(31.7)}
+{'epoch': 6, 'loss': 2.1524088471024125, 'sec': 6.4, 'dev_f1': np.float64(40.69), 'dev_P': np.float64(72.04), 'dev_R': np.float64(28.35)}
+{'epoch': 7, 'loss': 2.0276264490352736, 'sec': 6.3, 'dev_f1': np.float64(46.68), 'dev_P': np.float64(67.19), 'dev_R': np.float64(35.77)}
+{'epoch': 8, 'loss': 1.8558767384125128, 'sec': 6.3, 'dev_f1': np.float64(43.86), 'dev_P': np.float64(69.43), 'dev_R': np.float64(32.06)}
+{'epoch': 9, 'loss': 1.755435986927262, 'sec': 6.3, 'dev_f1': np.float64(45.02), 'dev_P': np.float64(69.67), 'dev_R': np.float64(33.25)}
+{'epoch': 10, 'loss': 1.581209992782937, 'sec': 6.7, 'dev_f1': np.float64(43.99), 'dev_P': np.float64(68.43), 'dev_R': np.float64(32.42)}
+{'epoch': 11, 'loss': 1.513478395977506, 'sec': 6.4, 'dev_f1': np.float64(47.71), 'dev_P': np.float64(65.76), 'dev_R': np.float64(37.44)}
+{'epoch': 12, 'loss': 1.423773432771365, 'sec': 6.4, 'dev_f1': np.float64(47.22), 'dev_P': np.float64(68.17), 'dev_R': np.float64(36.12)}
+{'epoch': 13, 'loss': 1.3588432906954377, 'sec': 6.6, 'dev_f1': np.float64(48.58), 'dev_P': np.float64(67.96), 'dev_R': np.float64(37.8)}
+{'epoch': 14, 'loss': 1.3072744275408763, 'sec': 6.7, 'dev_f1': np.float64(50.87), 'dev_P': np.float64(68.56), 'dev_R': np.float64(40.43)}
+{'epoch': 15, 'loss': 1.1990265301256269, 'sec': 6.4, 'dev_f1': np.float64(50.11), 'dev_P': np.float64(68.61), 'dev_R': np.float64(39.47)}
+{'epoch': 16, 'loss': 1.1483983678950205, 'sec': 6.3, 'dev_f1': np.float64(49.92), 'dev_P': np.float64(68.62), 'dev_R': np.float64(39.23)}
+{'epoch': 17, 'loss': 1.1136341699468042, 'sec': 6.3, 'dev_f1': np.float64(49.07), 'dev_P': np.float64(69.91), 'dev_R': np.float64(37.8)}
+{'epoch': 18, 'loss': 1.0516031152154837, 'sec': 6.3, 'dev_f1': np.float64(51.13), 'dev_P': np.float64(68.83), 'dev_R': np.float64(40.67)}
+{'epoch': 19, 'loss': 0.9649488928693312, 'sec': 6.2, 'dev_f1': np.float64(48.97), 'dev_P': np.float64(67.94), 'dev_R': np.float64(38.28)}
+{'epoch': 20, 'loss': 0.9402321944772093, 'sec': 6.4, 'dev_f1': np.float64(49.66), 'dev_P': np.float64(67.98), 'dev_R': np.float64(39.11)}
+{'epoch': 21, 'loss': 0.8562091655201383, 'sec': 6.6, 'dev_f1': np.float64(50.55), 'dev_P': np.float64(66.15), 'dev_R': np.float64(40.91)}
+{'epoch': 22, 'loss': 0.8567242346428059, 'sec': 6.4, 'dev_f1': np.float64(49.92), 'dev_P': np.float64(68.99), 'dev_R': np.float64(39.11)}
+{'epoch': 23, 'loss': 0.8181601557190772, 'sec': 6.4, 'dev_f1': np.float64(51.53), 'dev_P': np.float64(66.1), 'dev_R': np.float64(42.22)}
+{'epoch': 24, 'loss': 0.7574225737609797, 'sec': 6.3, 'dev_f1': np.float64(49.5), 'dev_P': np.float64(68.13), 'dev_R': np.float64(38.88)}
+{'epoch': 25, 'loss': 0.7339884124920462, 'sec': 6.3, 'dev_f1': np.float64(49.55), 'dev_P': np.float64(66.87), 'dev_R': np.float64(39.35)}
+{'epoch': 26, 'loss': 0.6889015558365457, 'sec': 6.5, 'dev_f1': np.float64(50.89), 'dev_P': np.float64(66.67), 'dev_R': np.float64(41.15)}
+{'epoch': 27, 'loss': 0.6637642436005451, 'sec': 6.4, 'dev_f1': np.float64(50.63), 'dev_P': np.float64(66.09), 'dev_R': np.float64(41.03)}
+{'epoch': 28, 'loss': 0.6456397323248287, 'sec': 6.3, 'dev_f1': np.float64(51.29), 'dev_P': np.float64(66.79), 'dev_R': np.float64(41.63)}
+{'epoch': 29, 'loss': 0.6018280587374681, 'sec': 6.5, 'dev_f1': np.float64(50.37), 'dev_P': np.float64(66.8), 'dev_R': np.float64(40.43)}
+{'epoch': 30, 'loss': 0.5670601735840103, 'sec': 6.4, 'dev_f1': np.float64(50.56), 'dev_P': np.float64(66.8), 'dev_R': np.float64(40.67)}
+{'epoch': 31, 'loss': 0.5678203693694539, 'sec': 6.4, 'dev_f1': np.float64(49.09), 'dev_P': np.float64(66.94), 'dev_R': np.float64(38.76)}
+A done 23 51.53 40.1
+{'epoch': 1, 'loss': 6.059286029405997, 'sec': 50.4}
+{'epoch': 2, 'loss': 3.410475362774352, 'sec': 8.5}
+{'epoch': 3, 'loss': 2.890355976534561, 'sec': 8.5}
+{'epoch': 4, 'loss': 2.5899411737918854, 'sec': 8.8}
+{'epoch': 5, 'loss': 2.3864412924773255, 'sec': 8.8}
+{'epoch': 6, 'loss': 2.188900808423338, 'sec': 8.7}
+{'epoch': 7, 'loss': 2.0361863286562367, 'sec': 8.7}
+{'epoch': 8, 'loss': 1.898333542993371, 'sec': 8.6}
+{'epoch': 9, 'loss': 1.7847846610025622, 'sec': 8.4}
+{'epoch': 10, 'loss': 1.6661613713687575, 'sec': 8.7}
+{'epoch': 11, 'loss': 1.5722878726435379, 'sec': 8.6}
+{'epoch': 12, 'loss': 1.4864864692511692, 'sec': 8.7}
+{'epoch': 13, 'loss': 1.442108340456452, 'sec': 8.6}
+{'epoch': 14, 'loss': 1.3414923282156528, 'sec': 8.7}
+{'epoch': 15, 'loss': 1.2733220978521964, 'sec': 8.8}
+{'epoch': 16, 'loss': 1.1970529988617964, 'sec': 8.6}
+{'epoch': 17, 'loss': 1.1194761484651499, 'sec': 8.8}
+{'epoch': 18, 'loss': 1.0884324683165048, 'sec': 8.9}
+{'epoch': 19, 'loss': 1.0383417086911872, 'sec': 8.7}
+{'epoch': 20, 'loss': 1.003968415624449, 'sec': 8.7}
+{'epoch': 21, 'loss': 0.9496107652888331, 'sec': 8.7}
+{'epoch': 22, 'loss': 0.9036152663994843, 'sec': 8.7}
+{'epoch': 23, 'loss': 0.8895741198474253, 'sec': 8.8}
+B seed 42 42.52
+{'epoch': 1, 'loss': 5.878477319025658, 'sec': 50.9}
+{'epoch': 2, 'loss': 3.431050291783373, 'sec': 8.6}
+{'epoch': 3, 'loss': 2.9020974963483677, 'sec': 9.0}
+{'epoch': 4, 'loss': 2.614974172182486, 'sec': 8.9}
+{'epoch': 5, 'loss': 2.358590008927063, 'sec': 8.6}
+{'epoch': 6, 'loss': 2.195539611326137, 'sec': 8.5}
+{'epoch': 7, 'loss': 1.970791477132851, 'sec': 8.8}
+{'epoch': 8, 'loss': 1.8468499401925316, 'sec': 8.7}
+{'epoch': 9, 'loss': 1.7594435200305052, 'sec': 8.8}
+{'epoch': 10, 'loss': 1.6454570295525268, 'sec': 8.5}
+{'epoch': 11, 'loss': 1.568755609468675, 'sec': 8.6}
+{'epoch': 12, 'loss': 1.4658884790161966, 'sec': 8.6}
+{'epoch': 13, 'loss': 1.4236313581046924, 'sec': 8.5}
+{'epoch': 14, 'loss': 1.295804244951463, 'sec': 8.8}
+{'epoch': 15, 'loss': 1.2723800150651328, 'sec': 8.7}
+{'epoch': 16, 'loss': 1.2059826973668286, 'sec': 8.7}
+{'epoch': 17, 'loss': 1.1688358217058048, 'sec': 8.9}
+{'epoch': 18, 'loss': 1.086587468398289, 'sec': 8.6}
+{'epoch': 19, 'loss': 1.0417760400180245, 'sec': 8.6}
+{'epoch': 20, 'loss': 0.9944807116834211, 'sec': 8.8}
+{'epoch': 21, 'loss': 0.9501643283686168, 'sec': 8.8}
+{'epoch': 22, 'loss': 0.9008084095909562, 'sec': 8.7}
+{'epoch': 23, 'loss': 0.8788913733942408, 'sec': 8.7}
+B seed 43 42.09
+{'epoch': 1, 'loss': 6.119641267917525, 'sec': 51.6}
+{'epoch': 2, 'loss': 3.3634573657747726, 'sec': 8.9}
+{'epoch': 3, 'loss': 2.9034880664147122, 'sec': 8.7}
+{'epoch': 4, 'loss': 2.61219777187831, 'sec': 8.5}
+{'epoch': 5, 'loss': 2.3721664077799085, 'sec': 8.5}
+{'epoch': 6, 'loss': 2.179757749530631, 'sec': 8.4}
+{'epoch': 7, 'loss': 2.034986846463781, 'sec': 8.6}
+{'epoch': 8, 'loss': 1.8905995807177585, 'sec': 8.6}
+{'epoch': 9, 'loss': 1.7928743708721349, 'sec': 8.7}
+{'epoch': 10, 'loss': 1.6701238633881152, 'sec': 8.4}
+{'epoch': 11, 'loss': 1.6206616762448365, 'sec': 8.5}
+{'epoch': 12, 'loss': 1.487964382263976, 'sec': 8.7}
+{'epoch': 13, 'loss': 1.4361022975243314, 'sec': 8.7}
+{'epoch': 14, 'loss': 1.3300737610585254, 'sec': 8.4}
+{'epoch': 15, 'loss': 1.2697928793413538, 'sec': 8.6}
+{'epoch': 16, 'loss': 1.2517913743643694, 'sec': 8.7}
+{'epoch': 17, 'loss': 1.1621424032139107, 'sec': 8.4}
+{'epoch': 18, 'loss': 1.0872655489914853, 'sec': 8.5}
+{'epoch': 19, 'loss': 1.0341044562593313, 'sec': 8.5}
+{'epoch': 20, 'loss': 0.9661423183033164, 'sec': 8.5}
+{'epoch': 21, 'loss': 0.9793316039820792, 'sec': 8.4}
+{'epoch': 22, 'loss': 0.9115377114692205, 'sec': 8.4}
+{'epoch': 23, 'loss': 0.894991053242079, 'sec': 8.6}
+B seed 44 40.19
+BILSTM done

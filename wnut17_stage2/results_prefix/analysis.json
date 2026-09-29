@@ -1,0 +1,949 @@
+{
+ "group_recall": {
+  "CRF": {
+   "unseen": {
+    "tp": 158,
+    "n": 970,
+    "recall": 16.3
+   },
+   "1 token": {
+    "tp": 152,
+    "n": 718,
+    "recall": 21.2
+   },
+   "kapital": {
+    "tp": 206,
+    "n": 800,
+    "recall": 25.8
+   },
+   "OOV": {
+    "tp": 109,
+    "n": 611,
+    "recall": 17.8
+   },
+   ">=2 token": {
+    "tp": 71,
+    "n": 361,
+    "recall": 19.7
+   },
+   "ada token dikenal": {
+    "tp": 114,
+    "n": 468,
+    "recall": 24.4
+   },
+   "ada huruf kecil": {
+    "tp": 17,
+    "n": 279,
+    "recall": 6.1
+   },
+   "seen": {
+    "tp": 65,
+    "n": 109,
+    "recall": 59.6
+   }
+  },
+  "SVM": {
+   "unseen": {
+    "tp": 272,
+    "n": 970,
+    "recall": 28.0
+   },
+   "1 token": {
+    "tp": 295,
+    "n": 718,
+    "recall": 41.1
+   },
+   "kapital": {
+    "tp": 330,
+    "n": 800,
+    "recall": 41.2
+   },
+   "OOV": {
+    "tp": 216,
+    "n": 611,
+    "recall": 35.4
+   },
+   ">=2 token": {
+    "tp": 68,
+    "n": 361,
+    "recall": 18.8
+   },
+   "ada token dikenal": {
+    "tp": 147,
+    "n": 468,
+    "recall": 31.4
+   },
+   "ada huruf kecil": {
+    "tp": 33,
+    "n": 279,
+    "recall": 11.8
+   },
+   "seen": {
+    "tp": 91,
+    "n": 109,
+    "recall": 83.5
+   }
+  },
+  "Bi-LSTM CRF": {
+   "unseen": {
+    "tp": 273,
+    "n": 970,
+    "recall": 28.1
+   },
+   "1 token": {
+    "tp": 230,
+    "n": 718,
+    "recall": 32.0
+   },
+   "kapital": {
+    "tp": 329,
+    "n": 800,
+    "recall": 41.1
+   },
+   "OOV": {
+    "tp": 176,
+    "n": 611,
+    "recall": 28.8
+   },
+   ">=2 token": {
+    "tp": 126,
+    "n": 361,
+    "recall": 34.9
+   },
+   "ada token dikenal": {
+    "tp": 180,
+    "n": 468,
+    "recall": 38.5
+   },
+   "ada huruf kecil": {
+    "tp": 27,
+    "n": 279,
+    "recall": 9.7
+   },
+   "seen": {
+    "tp": 83,
+    "n": 109,
+    "recall": 76.1
+   }
+  }
+ },
+ "confusion": {
+  "CRF": {
+   "person": {
+    "batas": 31,
+    "person": 156,
+    "terlewat": 221,
+    "location": 11,
+    "product": 4,
+    "group": 6
+   },
+   "location": {
+    "terlewat": 80,
+    "location": 40,
+    "batas": 18,
+    "corporation": 1,
+    "person": 10,
+    "group": 1
+   },
+   "corporation": {
+    "terlewat": 50,
+    "corporation": 5,
+    "group": 2,
+    "person": 3,
+    "batas": 5,
+    "location": 1
+   },
+   "product": {
+    "terlewat": 98,
+    "location": 4,
+    "batas": 10,
+    "group": 1,
+    "person": 7,
+    "creative-work": 1,
+    "product": 6
+   },
+   "creative-work": {
+    "terlewat": 97,
+    "batas": 20,
+    "person": 8,
+    "location": 8,
+    "creative-work": 7,
+    "product": 2
+   },
+   "group": {
+    "group": 9,
+    "terlewat": 127,
+    "batas": 8,
+    "person": 10,
+    "location": 8,
+    "creative-work": 1,
+    "product": 2
+   }
+  },
+  "SVM": {
+   "person": {
+    "batas": 49,
+    "person": 221,
+    "product": 12,
+    "location": 26,
+    "corporation": 4,
+    "terlewat": 92,
+    "group": 19,
+    "creative-work": 6
+   },
+   "location": {
+    "person": 7,
+    "corporation": 3,
+    "batas": 34,
+    "location": 75,
+    "terlewat": 22,
+    "group": 3,
+    "product": 2,
+    "creative-work": 4
+   },
+   "corporation": {
+    "corporation": 8,
+    "batas": 12,
+    "group": 7,
+    "location": 7,
+    "terlewat": 23,
+    "creative-work": 2,
+    "person": 6,
+    "product": 1
+   },
+   "product": {
+    "terlewat": 48,
+    "corporation": 4,
+    "location": 5,
+    "person": 7,
+    "product": 15,
+    "group": 3,
+    "batas": 40,
+    "creative-work": 5
+   },
+   "creative-work": {
+    "batas": 62,
+    "person": 6,
+    "product": 6,
+    "creative-work": 17,
+    "terlewat": 39,
+    "location": 7,
+    "group": 5
+   },
+   "group": {
+    "batas": 27,
+    "terlewat": 59,
+    "person": 18,
+    "location": 24,
+    "product": 7,
+    "group": 27,
+    "corporation": 1,
+    "creative-work": 2
+   }
+  },
+  "Bi-LSTM CRF": {
+   "person": {
+    "person": 206,
+    "batas": 19,
+    "terlewat": 197,
+    "group": 2,
+    "location": 4,
+    "creative-work": 1
+   },
+   "location": {
+    "terlewat": 52,
+    "location": 72,
+    "batas": 13,
+    "group": 4,
+    "person": 7,
+    "creative-work": 2
+   },
+   "corporation": {
+    "corporation": 9,
+    "creative-work": 2,
+    "group": 4,
+    "terlewat": 43,
+    "location": 3,
+    "person": 4,
+    "batas": 1
+   },
+   "product": {
+    "terlewat": 75,
+    "product": 17,
+    "location": 3,
+    "corporation": 8,
+    "person": 7,
+    "group": 1,
+    "batas": 14,
+    "creative-work": 2
+   },
+   "creative-work": {
+    "terlewat": 84,
+    "corporation": 3,
+    "creative-work": 22,
+    "person": 3,
+    "product": 5,
+    "batas": 17,
+    "location": 6,
+    "group": 2
+   },
+   "group": {
+    "group": 30,
+    "terlewat": 105,
+    "person": 5,
+    "location": 11,
+    "batas": 9,
+    "corporation": 3,
+    "creative-work": 2
+   }
+  }
+ },
+ "cand_all_correct_bilstm_only": [
+  [
+   6,
+   "Visuals of the avalanche site in Gurez sector .",
+   [
+    [
+     "location",
+     "Gurez sector"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "location",
+      "Gurez"
+     ]
+    ],
+    "SVM": [
+     [
+      "product",
+      "Gurez"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "location",
+      "Gurez sector"
+     ]
+    ]
+   }
+  ],
+  [
+   15,
+   "Road and airport closure isolate Srinagar as avalanche risk remains high",
+   [
+    [
+     "location",
+     "Srinagar"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "location",
+      "airport"
+     ],
+     [
+      "location",
+      "Srinagar"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "location",
+      "Srinagar"
+     ]
+    ]
+   }
+  ],
+  [
+   31,
+   "Toni Kroos - [ here ] ( https://www.reddit.com/r/soccer/comments/5my29a/nearcertain_fifpro_xi_for_2016_neuer_dani_alves/ ) is the ( near-certain ) full XI .",
+   [
+    [
+     "person",
+     "Toni Kroos"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "person",
+      "Toni Kroos"
+     ],
+     [
+      "location",
+      "XI"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "person",
+      "Toni Kroos"
+     ]
+    ]
+   }
+  ],
+  [
+   50,
+   "I hope y ' all take back what you said at Glenn Greenwald in the last thread .",
+   [
+    [
+     "person",
+     "Glenn Greenwald"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "location",
+      "Glenn Greenwald"
+     ]
+    ],
+    "SVM": [
+     [
+      "person",
+      "Glenn"
+     ],
+     [
+      "location",
+      "Greenwald"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "person",
+      "Glenn Greenwald"
+     ]
+    ]
+   }
+  ],
+  [
+   59,
+   "Becky in a Snickers advert ?",
+   [
+    [
+     "person",
+     "Becky"
+    ],
+    [
+     "product",
+     "Snickers"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "person",
+      "Becky"
+     ],
+     [
+      "corporation",
+      "Snickers"
+     ],
+     [
+      "product",
+      "advert"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "person",
+      "Becky"
+     ],
+     [
+      "product",
+      "Snickers"
+     ]
+    ]
+   }
+  ],
+  [
+   65,
+   "But I thought he had joined Boro ?",
+   [
+    [
+     "group",
+     "Boro"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "product",
+      "Boro"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "group",
+      "Boro"
+     ]
+    ]
+   }
+  ]
+ ],
+ "cand_all_wrong": [
+  [
+   7,
+   "( Source : ANI ) Visuals of the avalanche site in Gurez sector .",
+   [
+    [
+     "group",
+     "ANI"
+    ],
+    [
+     "location",
+     "Gurez sector"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "location",
+      "Gurez"
+     ]
+    ],
+    "SVM": [
+     [
+      "person",
+      "ANI"
+     ],
+     [
+      "product",
+      "Gurez"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "location",
+      "Gurez"
+     ]
+    ]
+   }
+  ],
+  [
+   8,
+   "( Source : ANI )",
+   [
+    [
+     "group",
+     "ANI"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "person",
+      "ANI"
+     ]
+    ],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   10,
+   "Watch What Else is Making News",
+   [
+    [
+     "creative-work",
+     "What Else is Making News"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "creative-work",
+      "Making"
+     ],
+     [
+      "group",
+      "News"
+     ]
+    ],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   17,
+   "The DRDO is working on projects to develop new technologies to predict avalanches in a much precise manner .",
+   [
+    [
+     "group",
+     "DRDO"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "person",
+      "DRDO"
+     ]
+    ],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   29,
+   "Bhangra is Punjabi .",
+   [
+    [
+     "person",
+     "Bhangra"
+    ],
+    [
+     "location",
+     "Punjabi"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "person",
+      "Bhangra"
+     ]
+    ],
+    "SVM": [
+     [
+      "person",
+      "Bhangra"
+     ]
+    ],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   32,
+   "[ Rip Chad ] ( https://www.reddit.com/r/soccer/comments/5mi9bl/granada_and_memo_ochoa_are_ready_to_end_real/ )",
+   [
+    [
+     "person",
+     "Chad"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "person",
+      "Rip"
+     ],
+     [
+      "person",
+      "Chad"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "person",
+      "Rip Chad"
+     ]
+    ]
+   }
+  ],
+  [
+   54,
+   "Living Computer Museum + Labs , Skyview Observatory , Smith Tower and Observation Deck ,",
+   [
+    [
+     "location",
+     "Living Computer Museum + Labs"
+    ],
+    [
+     "location",
+     "Skyview Observatory"
+    ],
+    [
+     "location",
+     "Smith Tower"
+    ],
+    [
+     "location",
+     "Observation Deck"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "corporation",
+      "Skyview Observatory"
+     ]
+    ],
+    "SVM": [
+     [
+      "product",
+      "Computer"
+     ],
+     [
+      "location",
+      "Museum"
+     ],
+     [
+      "product",
+      "+ Labs"
+     ],
+     [
+      "location",
+      "Skyview"
+     ],
+     [
+      "group",
+      "Observatory"
+     ],
+     [
+      "person",
+      "Smith"
+     ],
+     [
+      "location",
+      "Tower"
+     ],
+     [
+      "creative-work",
+      "Deck"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "location",
+      "Living Computer Museum"
+     ],
+     [
+      "location",
+      "Skyview Observatory"
+     ],
+     [
+      "location",
+      "Smith Tower"
+     ],
+     [
+      "location",
+      "Observation Deck"
+     ]
+    ]
+   }
+  ],
+  [
+   57,
+   "CVS selling their own version of epipen at 1 / 6 th price .",
+   [
+    [
+     "corporation",
+     "CVS"
+    ],
+    [
+     "product",
+     "epipen"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [
+     [
+      "corporation",
+      "CVS"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "corporation",
+      "CVS"
+     ]
+    ]
+   }
+  ],
+  [
+   73,
+   "Wow , / r / news totally kicked the shit out of / r / politics on this topic .",
+   [
+    [
+     "group",
+     "/ r / news"
+    ],
+    [
+     "group",
+     "/ r / politics"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   78,
+   "* * redditor * * : Quickloot",
+   [
+    [
+     "product",
+     "Quickloot"
+    ]
+   ],
+   {
+    "CRF": [],
+    "SVM": [],
+    "Bi-LSTM CRF": []
+   }
+  ],
+  [
+   84,
+   "they changed all the topics to Zlatan .",
+   [
+    [
+     "product",
+     "Zlatan"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "location",
+      "Zlatan"
+     ]
+    ],
+    "SVM": [
+     [
+      "location",
+      "Zlatan"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "location",
+      "Zlatan"
+     ]
+    ]
+   }
+  ],
+  [
+   85,
+   "The mods deleted [ this story about activists being beaten by Trump supporters ] ( https://m.reddit.com/r/politics/comments/5m3r1c/activists_brutally_attacked_by_donald_trump/ ) for being off topic .",
+   [
+    [
+     "group",
+     "mods"
+    ],
+    [
+     "person",
+     "Trump"
+    ]
+   ],
+   {
+    "CRF": [
+     [
+      "group",
+      "The mods"
+     ],
+     [
+      "person",
+      "Trump"
+     ]
+    ],
+    "SVM": [
+     [
+      "group",
+      "The"
+     ],
+     [
+      "product",
+      "mods"
+     ],
+     [
+      "person",
+      "Trump"
+     ]
+    ],
+    "Bi-LSTM CRF": [
+     [
+      "person",
+      "Trump"
+     ]
+    ]
+   }
+  ]
+ ],
+ "examples": {
+  "reddit": {
+   "idx": 27,
+   "tokens": [
+    "&",
+    "gt",
+    ";",
+    "Umm",
+    ",",
+    "where",
+    "are",
+    "all",
+    "these",
+    "alleged",
+    "criticisms",
+    "?"
+   ],
+   "CRF": [
+    "O",
+    "O",
+    "O",
+    "B-location",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "SVM": [
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "Bi-LSTM CRF": [
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "gold": [
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ]
+  }
+ }
+}

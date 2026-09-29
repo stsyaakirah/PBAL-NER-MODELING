@@ -1,0 +1,42 @@
+{
+ "CRF": [
+  14.1,
+  19.6
+ ],
+ "SVM": [
+  27.0,
+  32.6
+ ],
+ "Bi-LSTM CRF (baseline)": [
+  36.8,
+  43.4
+ ],
+ "Bi-LSTM CRF (ensemble)": [
+  38.0,
+  44.7
+ ],
+ "V3 + shift (dev choice)": [
+  34.6,
+  40.9
+ ],
+ "Bi-LSTM CRF (ensemble) minus Bi-LSTM CRF (baseline)": [
+  1.3,
+  -0.2,
+  2.9
+ ],
+ "V3 + shift (dev choice) minus Bi-LSTM CRF (baseline)": [
+  -2.3,
+  -4.3,
+  -0.2
+ ],
+ "Bi-LSTM CRF (baseline) minus SVM": [
+  10.4,
+  7.5,
+  13.1
+ ],
+ "SVM minus CRF": [
+  13.0,
+  9.9,
+  16.1
+ ]
+}

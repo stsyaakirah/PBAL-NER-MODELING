@@ -1,0 +1,26 @@
+GRID {'P': np.float64(53.81), 'R': np.float64(15.19), 'F1': np.float64(23.69), 'surfF1': 23.79, 'fitur': 'lengkap', 'c1': 0.1, 'c2': 0.003}
+GRID {'P': np.float64(56.14), 'R': np.float64(15.31), 'F1': np.float64(24.06), 'surfF1': 24.22, 'fitur': 'lengkap', 'c1': 0.1, 'c2': 0.01}
+GRID {'P': np.float64(58.72), 'R': np.float64(15.31), 'F1': np.float64(24.29), 'surfF1': 24.48, 'fitur': 'lengkap', 'c1': 0.1, 'c2': 0.03}
+GRID {'P': np.float64(53.91), 'R': np.float64(16.51), 'F1': np.float64(25.27), 'surfF1': 25.42, 'fitur': 'lengkap', 'c1': 0.3, 'c2': 0.003}
+GRID {'P': np.float64(55.19), 'R': np.float64(15.91), 'F1': np.float64(24.7), 'surfF1': 24.92, 'fitur': 'lengkap', 'c1': 0.3, 'c2': 0.01}
+GRID {'P': np.float64(55.65), 'R': np.float64(15.31), 'F1': np.float64(24.02), 'surfF1': 24.35, 'fitur': 'lengkap', 'c1': 0.3, 'c2': 0.03}
+GRID {'P': np.float64(54.11), 'R': np.float64(14.95), 'F1': np.float64(23.43), 'surfF1': 23.28, 'fitur': 'lengkap', 'c1': 1.0, 'c2': 0.003}
+GRID {'P': np.float64(54.7), 'R': np.float64(15.31), 'F1': np.float64(23.93), 'surfF1': 23.85, 'fitur': 'lengkap', 'c1': 1.0, 'c2': 0.01}
+GRID {'P': np.float64(56.52), 'R': np.float64(15.55), 'F1': np.float64(24.39), 'surfF1': 24.38, 'fitur': 'lengkap', 'c1': 1.0, 'c2': 0.03}
+GRID {'P': np.float64(52.55), 'R': np.float64(16.03), 'F1': np.float64(24.56), 'surfF1': 24.63, 'fitur': 'tanpa_cluster', 'c1': 0.1, 'c2': 0.003}
+GRID {'P': np.float64(54.62), 'R': np.float64(15.55), 'F1': np.float64(24.21), 'surfF1': 24.22, 'fitur': 'tanpa_cluster', 'c1': 0.1, 'c2': 0.01}
+GRID {'P': np.float64(58.67), 'R': np.float64(15.79), 'F1': np.float64(24.88), 'surfF1': 25.35, 'fitur': 'tanpa_cluster', 'c1': 0.1, 'c2': 0.03}
+GRID {'P': np.float64(52.12), 'R': np.float64(16.15), 'F1': np.float64(24.66), 'surfF1': 24.55, 'fitur': 'tanpa_cluster', 'c1': 0.3, 'c2': 0.003}
+GRID {'P': np.float64(52.92), 'R': np.float64(16.27), 'F1': np.float64(24.89), 'surfF1': 25.0, 'fitur': 'tanpa_cluster', 'c1': 0.3, 'c2': 0.01}
+GRID {'P': np.float64(55.51), 'R': np.float64(16.27), 'F1': np.float64(25.16), 'surfF1': 25.29, 'fitur': 'tanpa_cluster', 'c1': 0.3, 'c2': 0.03}
+GRID {'P': np.float64(54.55), 'R': np.float64(15.07), 'F1': np.float64(23.62), 'surfF1': 23.28, 'fitur': 'tanpa_cluster', 'c1': 1.0, 'c2': 0.003}
+GRID {'P': np.float64(54.78), 'R': np.float64(15.07), 'F1': np.float64(23.64), 'surfF1': 23.28, 'fitur': 'tanpa_cluster', 'c1': 1.0, 'c2': 0.01}
+GRID {'P': np.float64(55.95), 'R': np.float64(15.19), 'F1': np.float64(23.89), 'surfF1': 23.57, 'fitur': 'tanpa_cluster', 'c1': 1.0, 'c2': 0.03}
+BEST {'fitur': 'lengkap', 'c1': 0.3, 'c2': 0.003, 'dev_F1': np.float64(25.27)}
+ABL {'P': np.float64(42.37), 'R': np.float64(2.99), 'F1': np.float64(5.59), 'surfF1': 5.7, 'name': 'Kata'}
+ABL {'P': np.float64(42.68), 'R': np.float64(8.01), 'F1': np.float64(13.49), 'surfF1': 12.82, 'name': '+ Bentuk, afiks, media sosial'}
+ABL {'P': np.float64(48.52), 'R': np.float64(13.76), 'F1': np.float64(21.44), 'surfF1': 20.99, 'name': '+ Konteks +-2, bigram'}
+ABL {'P': np.float64(52.12), 'R': np.float64(16.15), 'F1': np.float64(24.66), 'surfF1': 24.55, 'name': '+ POS tag'}
+ABL {'P': np.float64(53.91), 'R': np.float64(16.51), 'F1': np.float64(25.27), 'surfF1': 25.42, 'name': '+ Cluster embedding'}
+TEST {'P': np.float64(42.4), 'R': np.float64(20.67), 'F1': np.float64(27.79), 'surfF1': 25.62}
+DONE

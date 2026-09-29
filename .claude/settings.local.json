@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(pandoc -t markdown \"/Users/adityaiko/Downloads/Laporan_Analisis_WNUT2017.docx\")",
+      "Read(//Users/adityaiko/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/deabc3ce-06ac-4002-9dae-3f7dc55f528f/3999b3a6-5c81-4b59-81c3-ce5779f1375f/skills/docx/scripts/**)",
+      "Bash(python3 -c \"import docx; print\\('python-docx ok'\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cp /tmp/Laporan_Analisis_WNUT2017_corrected.docx \"/Users/adityaiko/Downloads/Laporan_Analisis_WNUT2017_corrected.docx\")",
+      "Read(//Users/adityaiko/Downloads/**)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -m ner.data)",
+      "Bash(time python3 train_crf.py)",
+      "Bash(python3 -c \"import torchcrf; print\\('torchcrf ok'\\)\")",
+      "Bash(python3 validate_scorer.py)",
+      "Bash(time python3 train_svm.py)",
+      "Bash(time python3 train_bilstm_crf.py --epochs 5)",
+      "Bash(python3 -c \"import sklearn,scipy,numpy,torchcrf,torch,nltk,sklearn_crfsuite,seqeval; import importlib.metadata as m; [print\\(f'{p}=={m.version\\(p\\)}'\\) for p in ['scikit-learn','sklearn-crfsuite','seqeval','torch','pytorch-crf','nltk','numpy','scipy']]\")",
+      "Bash(python3 compare_models.py)",
+      "Bash(node gen_stage1_pptx.js)",
+      "Bash(npm install *)",
+      "Bash(python3 '/Users/adityaiko/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/deabc3ce-06ac-4002-9dae-3f7dc55f528f/3999b3a6-5c81-4b59-81c3-ce5779f1375f/skills/pptx/scripts/office/validate.py' Stage1_Presentation.pptx)",
+      "Bash(node gen_stage2_pptx.js)",
+      "Bash(NODE_PATH=/private/tmp/node_modules node gen_stage2_pptx.js)",
+      "Bash(python3 '/Users/adityaiko/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/deabc3ce-06ac-4002-9dae-3f7dc55f528f/3999b3a6-5c81-4b59-81c3-ce5779f1375f/skills/pptx/scripts/office/validate.py' NER_WNUT17_Assignment2_Part2_Kelompok1_refreshed.pptx)"
+    ]
+  }
+}

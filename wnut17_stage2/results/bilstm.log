@@ -1,0 +1,108 @@
+A {'epoch': 1, 'loss': 6.24, 'sec': 51.3, 'dev_f1': 12.7, 'dev_P': 48.8, 'dev_R': 7.3}
+A {'epoch': 2, 'loss': 3.402, 'sec': 5.8, 'dev_f1': 35.43, 'dev_P': 68.26, 'dev_R': 23.92}
+A {'epoch': 3, 'loss': 2.883, 'sec': 5.5, 'dev_f1': 37.5, 'dev_P': 71.0, 'dev_R': 25.48}
+A {'epoch': 4, 'loss': 2.57, 'sec': 5.8, 'dev_f1': 37.49, 'dev_P': 74.91, 'dev_R': 25.0}
+A {'epoch': 5, 'loss': 2.345, 'sec': 10.1, 'dev_f1': 43.65, 'dev_P': 68.37, 'dev_R': 32.06}
+A {'epoch': 6, 'loss': 2.155, 'sec': 12.2, 'dev_f1': 40.79, 'dev_P': 72.7, 'dev_R': 28.35}
+A {'epoch': 7, 'loss': 2.029, 'sec': 12.2, 'dev_f1': 46.6, 'dev_P': 67.27, 'dev_R': 35.65}
+A {'epoch': 8, 'loss': 1.858, 'sec': 12.2, 'dev_f1': 43.97, 'dev_P': 69.97, 'dev_R': 32.06}
+A {'epoch': 9, 'loss': 1.754, 'sec': 11.1, 'dev_f1': 44.98, 'dev_P': 69.5, 'dev_R': 33.25}
+A {'epoch': 10, 'loss': 1.583, 'sec': 11.8, 'dev_f1': 43.49, 'dev_P': 68.11, 'dev_R': 31.94}
+A {'epoch': 11, 'loss': 1.512, 'sec': 11.9, 'dev_f1': 47.94, 'dev_P': 66.24, 'dev_R': 37.56}
+A {'epoch': 12, 'loss': 1.425, 'sec': 12.0, 'dev_f1': 47.46, 'dev_P': 68.31, 'dev_R': 36.36}
+A {'epoch': 13, 'loss': 1.36, 'sec': 11.8, 'dev_f1': 48.32, 'dev_P': 66.95, 'dev_R': 37.8}
+A {'epoch': 14, 'loss': 1.306, 'sec': 12.5, 'dev_f1': 50.68, 'dev_P': 68.93, 'dev_R': 40.07}
+A {'epoch': 15, 'loss': 1.198, 'sec': 11.9, 'dev_f1': 49.7, 'dev_P': 68.49, 'dev_R': 39.0}
+A {'epoch': 16, 'loss': 1.148, 'sec': 12.0, 'dev_f1': 49.35, 'dev_P': 68.29, 'dev_R': 38.64}
+A {'epoch': 17, 'loss': 1.115, 'sec': 12.0, 'dev_f1': 48.48, 'dev_P': 69.18, 'dev_R': 37.32}
+A {'epoch': 18, 'loss': 1.046, 'sec': 12.0, 'dev_f1': 51.31, 'dev_P': 68.81, 'dev_R': 40.91}
+A {'epoch': 19, 'loss': 0.965, 'sec': 11.6, 'dev_f1': 49.31, 'dev_P': 68.14, 'dev_R': 38.64}
+A {'epoch': 20, 'loss': 0.941, 'sec': 11.9, 'dev_f1': 49.24, 'dev_P': 67.5, 'dev_R': 38.76}
+A {'epoch': 21, 'loss': 0.853, 'sec': 12.2, 'dev_f1': 51.1, 'dev_P': 66.16, 'dev_R': 41.63}
+A {'epoch': 22, 'loss': 0.858, 'sec': 12.3, 'dev_f1': 50.68, 'dev_P': 68.93, 'dev_R': 40.07}
+A {'epoch': 23, 'loss': 0.81, 'sec': 12.3, 'dev_f1': 51.28, 'dev_P': 65.85, 'dev_R': 41.99}
+A {'epoch': 24, 'loss': 0.755, 'sec': 11.6, 'dev_f1': 49.55, 'dev_P': 67.56, 'dev_R': 39.11}
+A {'epoch': 25, 'loss': 0.729, 'sec': 12.1, 'dev_f1': 49.44, 'dev_P': 66.46, 'dev_R': 39.35}
+A {'epoch': 26, 'loss': 0.686, 'sec': 11.6, 'dev_f1': 49.85, 'dev_P': 65.62, 'dev_R': 40.19}
+A TEST {'P': np.float64(59.5), 'R': np.float64(28.45), 'F1': np.float64(38.5), 'surfF1': 37.14} best_ep 18
+B42 {'epoch': 1, 'loss': 6.061, 'sec': 84.4}
+B42 {'epoch': 2, 'loss': 3.411, 'sec': 16.0}
+B42 {'epoch': 3, 'loss': 2.888, 'sec': 15.6}
+B42 {'epoch': 4, 'loss': 2.589, 'sec': 16.3}
+B42 {'epoch': 5, 'loss': 2.386, 'sec': 15.7}
+B42 {'epoch': 6, 'loss': 2.191, 'sec': 16.4}
+B42 {'epoch': 7, 'loss': 2.037, 'sec': 16.3}
+B42 {'epoch': 8, 'loss': 1.898, 'sec': 16.6}
+B42 {'epoch': 9, 'loss': 1.788, 'sec': 15.6}
+B42 {'epoch': 10, 'loss': 1.666, 'sec': 16.4}
+B42 {'epoch': 11, 'loss': 1.572, 'sec': 16.1}
+B42 {'epoch': 12, 'loss': 1.487, 'sec': 15.9}
+B42 {'epoch': 13, 'loss': 1.442, 'sec': 16.1}
+B42 {'epoch': 14, 'loss': 1.341, 'sec': 16.1}
+B42 {'epoch': 15, 'loss': 1.271, 'sec': 16.2}
+B42 {'epoch': 16, 'loss': 1.202, 'sec': 15.9}
+B42 {'epoch': 17, 'loss': 1.121, 'sec': 15.9}
+B42 {'epoch': 18, 'loss': 1.085, 'sec': 9.6}
+B TEST seed 42 {'P': np.float64(61.27), 'R': np.float64(32.99), 'F1': np.float64(42.89), 'surfF1': 41.66}
+B43 {'epoch': 1, 'loss': 5.879, 'sec': 68.8}
+B43 {'epoch': 2, 'loss': 3.432, 'sec': 16.2}
+B43 {'epoch': 3, 'loss': 2.901, 'sec': 16.2}
+B43 {'epoch': 4, 'loss': 2.615, 'sec': 16.1}
+B43 {'epoch': 5, 'loss': 2.358, 'sec': 16.1}
+B43 {'epoch': 6, 'loss': 2.196, 'sec': 16.4}
+B43 {'epoch': 7, 'loss': 1.969, 'sec': 16.7}
+B43 {'epoch': 8, 'loss': 1.848, 'sec': 16.4}
+B43 {'epoch': 9, 'loss': 1.761, 'sec': 16.7}
+B43 {'epoch': 10, 'loss': 1.645, 'sec': 16.7}
+B43 {'epoch': 11, 'loss': 1.568, 'sec': 16.1}
+B43 {'epoch': 12, 'loss': 1.462, 'sec': 16.2}
+B43 {'epoch': 13, 'loss': 1.424, 'sec': 16.1}
+B43 {'epoch': 14, 'loss': 1.293, 'sec': 16.6}
+B43 {'epoch': 15, 'loss': 1.272, 'sec': 16.3}
+B43 {'epoch': 16, 'loss': 1.203, 'sec': 23.1}
+B43 {'epoch': 17, 'loss': 1.167, 'sec': 25.3}
+B43 {'epoch': 18, 'loss': 1.083, 'sec': 26.0}
+B TEST seed 43 {'P': np.float64(53.2), 'R': np.float64(34.66), 'F1': np.float64(41.98), 'surfF1': 41.12}
+B44 {'epoch': 1, 'loss': 6.12, 'sec': 154.4}
+B44 {'epoch': 2, 'loss': 3.363, 'sec': 25.2}
+B44 {'epoch': 3, 'loss': 2.902, 'sec': 25.3}
+B44 {'epoch': 4, 'loss': 2.613, 'sec': 25.0}
+B44 {'epoch': 5, 'loss': 2.372, 'sec': 25.0}
+B44 {'epoch': 6, 'loss': 2.179, 'sec': 25.3}
+B44 {'epoch': 7, 'loss': 2.035, 'sec': 25.7}
+B44 {'epoch': 8, 'loss': 1.887, 'sec': 26.0}
+B44 {'epoch': 9, 'loss': 1.792, 'sec': 25.2}
+B44 {'epoch': 10, 'loss': 1.667, 'sec': 19.5}
+B44 {'epoch': 11, 'loss': 1.618, 'sec': 16.9}
+B44 {'epoch': 12, 'loss': 1.487, 'sec': 16.6}
+B44 {'epoch': 13, 'loss': 1.437, 'sec': 16.4}
+B44 {'epoch': 14, 'loss': 1.325, 'sec': 16.4}
+B44 {'epoch': 15, 'loss': 1.27, 'sec': 23.3}
+B44 {'epoch': 16, 'loss': 1.251, 'sec': 25.4}
+B44 {'epoch': 17, 'loss': 1.158, 'sec': 25.7}
+B44 {'epoch': 18, 'loss': 1.084, 'sec': 25.7}
+B TEST seed 44 {'P': np.float64(54.31), 'R': np.float64(32.72), 'F1': np.float64(40.83), 'surfF1': 39.36}
+C {'epoch': 1, 'loss': 7.627, 'sec': 117.4, 'dev_f1': 2.35, 'dev_P': 71.43, 'dev_R': 1.2}
+C {'epoch': 2, 'loss': 4.053, 'sec': 20.5, 'dev_f1': 31.98, 'dev_P': 74.89, 'dev_R': 20.33}
+C {'epoch': 3, 'loss': 3.352, 'sec': 19.5, 'dev_f1': 34.75, 'dev_P': 71.38, 'dev_R': 22.97}
+C {'epoch': 4, 'loss': 2.997, 'sec': 19.6, 'dev_f1': 35.42, 'dev_P': 77.42, 'dev_R': 22.97}
+C {'epoch': 5, 'loss': 2.655, 'sec': 19.0, 'dev_f1': 43.26, 'dev_P': 71.04, 'dev_R': 31.1}
+C {'epoch': 6, 'loss': 2.449, 'sec': 19.6, 'dev_f1': 37.57, 'dev_P': 74.47, 'dev_R': 25.12}
+C {'epoch': 7, 'loss': 2.271, 'sec': 20.0, 'dev_f1': 45.2, 'dev_P': 70.56, 'dev_R': 33.25}
+C {'epoch': 8, 'loss': 2.032, 'sec': 20.1, 'dev_f1': 43.23, 'dev_P': 74.93, 'dev_R': 30.38}
+C {'epoch': 9, 'loss': 1.927, 'sec': 19.5, 'dev_f1': 45.42, 'dev_P': 71.65, 'dev_R': 33.25}
+C {'epoch': 10, 'loss': 1.755, 'sec': 20.1, 'dev_f1': 44.5, 'dev_P': 73.35, 'dev_R': 31.94}
+C {'epoch': 11, 'loss': 1.633, 'sec': 19.0, 'dev_f1': 48.16, 'dev_P': 69.93, 'dev_R': 36.72}
+C {'epoch': 12, 'loss': 1.55, 'sec': 19.1, 'dev_f1': 48.25, 'dev_P': 71.7, 'dev_R': 36.36}
+C {'epoch': 13, 'loss': 1.462, 'sec': 19.1, 'dev_f1': 48.15, 'dev_P': 70.77, 'dev_R': 36.48}
+C {'epoch': 14, 'loss': 1.402, 'sec': 19.4, 'dev_f1': 50.56, 'dev_P': 67.81, 'dev_R': 40.31}
+C {'epoch': 15, 'loss': 1.286, 'sec': 19.6, 'dev_f1': 47.78, 'dev_P': 70.56, 'dev_R': 36.12}
+C {'epoch': 16, 'loss': 1.184, 'sec': 19.3, 'dev_f1': 46.65, 'dev_P': 71.71, 'dev_R': 34.57}
+C {'epoch': 17, 'loss': 1.122, 'sec': 19.1, 'dev_f1': 48.61, 'dev_P': 71.9, 'dev_R': 36.72}
+C {'epoch': 18, 'loss': 1.065, 'sec': 20.0, 'dev_f1': 49.07, 'dev_P': 69.91, 'dev_R': 37.8}
+C {'epoch': 19, 'loss': 1.013, 'sec': 19.5, 'dev_f1': 48.87, 'dev_P': 66.12, 'dev_R': 38.76}
+C {'epoch': 20, 'loss': 0.969, 'sec': 19.1, 'dev_f1': 48.61, 'dev_P': 68.48, 'dev_R': 37.68}
+C {'epoch': 21, 'loss': 0.887, 'sec': 19.4, 'dev_f1': 50.27, 'dev_P': 69.56, 'dev_R': 39.35}
+C {'epoch': 22, 'loss': 0.863, 'sec': 19.6, 'dev_f1': 50.11, 'dev_P': 67.55, 'dev_R': 39.83}
+C TEST {'P': np.float64(59.13), 'R': np.float64(30.31), 'F1': np.float64(40.07), 'surfF1': 38.52} best_ep 14
+DONE

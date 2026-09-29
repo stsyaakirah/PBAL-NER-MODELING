@@ -1,0 +1,674 @@
+{
+ "crf": {
+  "P": 41.92,
+  "R": 20.67,
+  "F1": 27.68,
+  "surf": 25.51,
+  "tokacc": 92.81,
+  "tokF1": 27.56,
+  "types": {
+   "person": 44.0,
+   "location": 28.3,
+   "corporation": 12.8,
+   "product": 7.6,
+   "creative-work": 10.8,
+   "group": 8.1
+  },
+  "typeP": {
+   "person": 57.3,
+   "location": 29.3,
+   "corporation": 41.7,
+   "product": 19.4,
+   "creative-work": 36.0,
+   "group": 15.8
+  },
+  "typeR": {
+   "person": 35.7,
+   "location": 27.3,
+   "corporation": 7.6,
+   "product": 4.7,
+   "creative-work": 6.3,
+   "group": 5.5
+  },
+  "dev": 24.47,
+  "cfg": {
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.003,
+   "dev_F1": 25.27
+  },
+  "errors": {
+   "terlewat": 668,
+   "benar": 223,
+   "salah_batas": 44,
+   "salah_batas_dan_tipe": 55,
+   "salah_tipe": 89,
+   "prediksi_palsu": 123
+  },
+  "cv": {
+   "folds": [
+    29.97,
+    39.33,
+    34.57,
+    38.74,
+    29.29
+   ],
+   "mean": 34.38,
+   "std": 4.22
+  },
+  "trainonly": 16.8
+ },
+ "svm": {
+  "P": 30.24,
+  "R": 31.97,
+  "F1": 31.08,
+  "surf": 26.79,
+  "tokacc": 92.15,
+  "tokF1": 33.23,
+  "types": {
+   "person": 50.4,
+   "location": 36.3,
+   "corporation": 10.2,
+   "product": 10.3,
+   "creative-work": 13.1,
+   "group": 16.1
+  },
+  "typeP": {
+   "person": 52.8,
+   "location": 28.7,
+   "corporation": 9.9,
+   "product": 9.7,
+   "creative-work": 14.4,
+   "group": 16.6
+  },
+  "typeR": {
+   "person": 48.3,
+   "location": 49.3,
+   "corporation": 10.6,
+   "product": 11.0,
+   "creative-work": 12.0,
+   "group": 15.8
+  },
+  "dev": 44.01,
+  "dev_repair": 40.66,
+  "errors": {
+   "salah_tipe": 212,
+   "salah_batas": 151,
+   "terlewat": 277,
+   "salah_batas_dan_tipe": 74,
+   "benar": 365,
+   "prediksi_palsu": 628
+  },
+  "cv": {
+   "folds": [
+    40.94,
+    47.26,
+    42.67,
+    38.31,
+    46.15
+   ],
+   "mean": 43.07,
+   "std": 3.3
+  },
+  "repair_test": {
+   "P": 22.86,
+   "R": 33.83,
+   "F1": 27.28,
+   "surf": 26.79,
+   "tokacc": 92.0,
+   "tokF1": 31.23,
+   "types": {
+    "person": 47.3,
+    "location": 32.2,
+    "corporation": 9.2,
+    "product": 8.4,
+    "creative-work": 10.4,
+    "group": 14.7
+   },
+   "typeP": {
+    "person": 43.9,
+    "location": 23.7,
+    "corporation": 7.5,
+    "product": 6.3,
+    "creative-work": 8.9,
+    "group": 13.0
+   },
+   "typeR": {
+    "person": 51.3,
+    "location": 50.0,
+    "corporation": 12.1,
+    "product": 12.6,
+    "creative-work": 12.7,
+    "group": 17.0
+   }
+  },
+  "invalid_I": 456,
+  "trainonly": 29.8
+ },
+ "bilstm": {
+  "P": 51.45,
+  "R": 36.24,
+  "F1": 42.52,
+  "surf": 41.6,
+  "tokacc": 94.27,
+  "tokF1": 43.93,
+  "types": {
+   "person": 59.2,
+   "location": 52.8,
+   "corporation": 20.0,
+   "product": 19.3,
+   "creative-work": 19.1,
+   "group": 23.9
+  },
+  "typeP": {
+   "person": 64.4,
+   "location": 53.0,
+   "corporation": 25.0,
+   "product": 27.1,
+   "creative-work": 25.0,
+   "group": 56.8
+  },
+  "typeR": {
+   "person": 54.8,
+   "location": 52.7,
+   "corporation": 16.7,
+   "product": 15.0,
+   "creative-work": 15.5,
+   "group": 15.2
+  },
+  "primary": "seed 42",
+  "mean3": {
+   "P": 53.43,
+   "R": 34.14,
+   "F1": 41.6,
+   "surf": 40.58,
+   "tokacc": 94.26,
+   "types": {
+    "person": 58.6,
+    "location": 52.0,
+    "corporation": 18.9,
+    "product": 17.5,
+    "creative-work": 18.9,
+    "group": 23.3
+   }
+  },
+  "seed42": {
+   "P": 51.45,
+   "R": 36.24,
+   "F1": 42.52,
+   "surf": 41.6,
+   "tokacc": 94.27,
+   "tokF1": 43.93,
+   "types": {
+    "person": 59.2,
+    "location": 52.8,
+    "corporation": 20.0,
+    "product": 19.3,
+    "creative-work": 19.1,
+    "group": 23.9
+   },
+   "typeP": {
+    "person": 64.4,
+    "location": 53.0,
+    "corporation": 25.0,
+    "product": 27.1,
+    "creative-work": 25.0,
+    "group": 56.8
+   },
+   "typeR": {
+    "person": 54.8,
+    "location": 52.7,
+    "corporation": 16.7,
+    "product": 15.0,
+    "creative-work": 15.5,
+    "group": 15.2
+   }
+  },
+  "pre": {
+   "P": 61.27,
+   "R": 32.99,
+   "F1": 42.89
+  },
+  "std": 1.01,
+  "seeds": [
+   42.52,
+   42.09,
+   40.19
+  ],
+  "epochs": 23,
+  "errors": {
+   "salah_tipe": 138,
+   "terlewat": 448,
+   "benar": 391,
+   "salah_batas": 62,
+   "salah_batas_dan_tipe": 40,
+   "prediksi_palsu": 126
+  },
+  "trainonly_bio": 40.1,
+  "dev_bio": 51.53,
+  "best_ep_bio": 23,
+  "bioes_test": 40.07,
+  "bioes_dev": 50.56,
+  "bioes_ep": 14,
+  "curve_bio": [
+   13.24,
+   35.67,
+   37.5,
+   37.42,
+   43.27,
+   40.69,
+   46.68,
+   43.86,
+   45.02,
+   43.99,
+   47.71,
+   47.22,
+   48.58,
+   50.87,
+   50.11,
+   49.92,
+   49.07,
+   51.13,
+   48.97,
+   49.66,
+   50.55,
+   49.92,
+   51.53,
+   49.5,
+   49.55,
+   50.89,
+   50.63,
+   51.29,
+   50.37,
+   50.56,
+   49.09
+  ],
+  "curve_bioes": [
+   2.35,
+   31.98,
+   34.75,
+   35.42,
+   43.26,
+   37.57,
+   45.2,
+   43.23,
+   45.42,
+   44.5,
+   48.16,
+   48.25,
+   48.15,
+   50.56,
+   47.78,
+   46.65,
+   48.61,
+   49.07,
+   48.87,
+   48.61,
+   50.27,
+   50.11
+  ],
+  "curve_bio_prefix": [
+   12.7,
+   35.43,
+   37.5,
+   37.49,
+   43.65,
+   40.79,
+   46.6,
+   43.97,
+   44.98,
+   43.49,
+   47.94,
+   47.46,
+   48.32,
+   50.68,
+   49.7,
+   49.35,
+   48.48,
+   51.31,
+   49.31,
+   49.24,
+   51.1,
+   50.68,
+   51.28,
+   49.55,
+   49.44,
+   49.85
+  ]
+ },
+ "crf_grid": [
+  {
+   "P": 53.81,
+   "R": 15.19,
+   "F1": 23.69,
+   "surfF1": 23.79,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.003
+  },
+  {
+   "P": 56.14,
+   "R": 15.31,
+   "F1": 24.06,
+   "surfF1": 24.22,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.01
+  },
+  {
+   "P": 58.72,
+   "R": 15.31,
+   "F1": 24.29,
+   "surfF1": 24.48,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.03
+  },
+  {
+   "P": 53.91,
+   "R": 16.51,
+   "F1": 25.27,
+   "surfF1": 25.42,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.003
+  },
+  {
+   "P": 55.19,
+   "R": 15.91,
+   "F1": 24.7,
+   "surfF1": 24.92,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.01
+  },
+  {
+   "P": 55.65,
+   "R": 15.31,
+   "F1": 24.02,
+   "surfF1": 24.35,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.03
+  },
+  {
+   "P": 54.11,
+   "R": 14.95,
+   "F1": 23.43,
+   "surfF1": 23.28,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.003
+  },
+  {
+   "P": 54.7,
+   "R": 15.31,
+   "F1": 23.93,
+   "surfF1": 23.85,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.01
+  },
+  {
+   "P": 56.52,
+   "R": 15.55,
+   "F1": 24.39,
+   "surfF1": 24.38,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.03
+  },
+  {
+   "P": 52.55,
+   "R": 16.03,
+   "F1": 24.56,
+   "surfF1": 24.63,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.003
+  },
+  {
+   "P": 54.62,
+   "R": 15.55,
+   "F1": 24.21,
+   "surfF1": 24.22,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.01
+  },
+  {
+   "P": 58.67,
+   "R": 15.79,
+   "F1": 24.88,
+   "surfF1": 25.35,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.03
+  },
+  {
+   "P": 52.12,
+   "R": 16.15,
+   "F1": 24.66,
+   "surfF1": 24.55,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.003
+  },
+  {
+   "P": 52.92,
+   "R": 16.27,
+   "F1": 24.89,
+   "surfF1": 25.0,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.01
+  },
+  {
+   "P": 55.51,
+   "R": 16.27,
+   "F1": 25.16,
+   "surfF1": 25.29,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.03
+  },
+  {
+   "P": 54.55,
+   "R": 15.07,
+   "F1": 23.62,
+   "surfF1": 23.28,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.003
+  },
+  {
+   "P": 54.78,
+   "R": 15.07,
+   "F1": 23.64,
+   "surfF1": 23.28,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.01
+  },
+  {
+   "P": 55.95,
+   "R": 15.19,
+   "F1": 23.89,
+   "surfF1": 23.57,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.03
+  }
+ ],
+ "crf_ablation": [
+  {
+   "P": 42.37,
+   "R": 2.99,
+   "F1": 5.59,
+   "surfF1": 5.7,
+   "name": "Kata"
+  },
+  {
+   "P": 42.68,
+   "R": 8.01,
+   "F1": 13.49,
+   "surfF1": 12.82,
+   "name": "+ Bentuk, afiks, media sosial"
+  },
+  {
+   "P": 48.52,
+   "R": 13.76,
+   "F1": 21.44,
+   "surfF1": 20.99,
+   "name": "+ Konteks +-2, bigram"
+  },
+  {
+   "P": 52.12,
+   "R": 16.15,
+   "F1": 24.66,
+   "surfF1": 24.55,
+   "name": "+ POS tag"
+  },
+  {
+   "P": 53.91,
+   "R": 16.51,
+   "F1": 25.27,
+   "surfF1": 25.42,
+   "name": "+ Cluster embedding"
+  }
+ ],
+ "crf_first_grid_best": {
+  "c1": 0.3,
+  "c2": 0.03,
+  "dev_F1": 23.52
+ },
+ "crf_nocluster_test": 27.76,
+ "analysis": {
+  "CRF": {
+   "unseen": {
+    "tp": 159,
+    "n": 970,
+    "recall": 16.4
+   },
+   "1 token": {
+    "tp": 151,
+    "n": 718,
+    "recall": 21.0
+   },
+   "kapital": {
+    "tp": 206,
+    "n": 800,
+    "recall": 25.8
+   },
+   "OOV": {
+    "tp": 107,
+    "n": 611,
+    "recall": 17.5
+   },
+   ">=2 token": {
+    "tp": 72,
+    "n": 361,
+    "recall": 19.9
+   },
+   "ada token dikenal": {
+    "tp": 116,
+    "n": 468,
+    "recall": 24.8
+   },
+   "ada huruf kecil": {
+    "tp": 17,
+    "n": 279,
+    "recall": 6.1
+   },
+   "seen": {
+    "tp": 64,
+    "n": 109,
+    "recall": 58.7
+   }
+  },
+  "SVM": {
+   "unseen": {
+    "tp": 275,
+    "n": 970,
+    "recall": 28.4
+   },
+   "1 token": {
+    "tp": 296,
+    "n": 718,
+    "recall": 41.2
+   },
+   "kapital": {
+    "tp": 332,
+    "n": 800,
+    "recall": 41.5
+   },
+   "OOV": {
+    "tp": 215,
+    "n": 611,
+    "recall": 35.2
+   },
+   ">=2 token": {
+    "tp": 69,
+    "n": 361,
+    "recall": 19.1
+   },
+   "ada token dikenal": {
+    "tp": 150,
+    "n": 468,
+    "recall": 32.1
+   },
+   "ada huruf kecil": {
+    "tp": 33,
+    "n": 279,
+    "recall": 11.8
+   },
+   "seen": {
+    "tp": 90,
+    "n": 109,
+    "recall": 82.6
+   }
+  },
+  "Bi-LSTM CRF": {
+   "unseen": {
+    "tp": 304,
+    "n": 970,
+    "recall": 31.3
+   },
+   "1 token": {
+    "tp": 266,
+    "n": 718,
+    "recall": 37.0
+   },
+   "kapital": {
+    "tp": 349,
+    "n": 800,
+    "recall": 43.6
+   },
+   "OOV": {
+    "tp": 206,
+    "n": 611,
+    "recall": 33.7
+   },
+   ">=2 token": {
+    "tp": 125,
+    "n": 361,
+    "recall": 34.6
+   },
+   "ada token dikenal": {
+    "tp": 185,
+    "n": 468,
+    "recall": 39.5
+   },
+   "ada huruf kecil": {
+    "tp": 42,
+    "n": 279,
+    "recall": 15.1
+   },
+   "seen": {
+    "tp": 87,
+    "n": 109,
+    "recall": 79.8
+   }
+  }
+ }
+}

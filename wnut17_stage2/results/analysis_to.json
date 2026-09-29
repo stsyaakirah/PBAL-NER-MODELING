@@ -1,0 +1,132 @@
+{
+ "group_recall": {
+  "CRF": {
+   "unseen": {
+    "tp": 118,
+    "n": 1055,
+    "recall": 11.2
+   },
+   "1 token": {
+    "tp": 68,
+    "n": 718,
+    "recall": 9.5
+   },
+   "kapital": {
+    "tp": 118,
+    "n": 800,
+    "recall": 14.8
+   },
+   ">=2 token": {
+    "tp": 55,
+    "n": 361,
+    "recall": 15.2
+   },
+   "ada huruf kecil": {
+    "tp": 5,
+    "n": 279,
+    "recall": 1.8
+   },
+   "seen": {
+    "tp": 5,
+    "n": 24,
+    "recall": 20.8
+   }
+  },
+  "SVM": {
+   "unseen": {
+    "tp": 309,
+    "n": 1055,
+    "recall": 29.3
+   },
+   "1 token": {
+    "tp": 264,
+    "n": 718,
+    "recall": 36.8
+   },
+   "kapital": {
+    "tp": 308,
+    "n": 800,
+    "recall": 38.5
+   },
+   ">=2 token": {
+    "tp": 61,
+    "n": 361,
+    "recall": 16.9
+   },
+   "ada huruf kecil": {
+    "tp": 17,
+    "n": 279,
+    "recall": 6.1
+   },
+   "seen": {
+    "tp": 16,
+    "n": 24,
+    "recall": 66.7
+   }
+  },
+  "Bi-LSTM CRF (baseline)": {
+   "unseen": {
+    "tp": 316,
+    "n": 1055,
+    "recall": 30.0
+   },
+   "1 token": {
+    "tp": 230,
+    "n": 718,
+    "recall": 32.0
+   },
+   "kapital": {
+    "tp": 315,
+    "n": 800,
+    "recall": 39.4
+   },
+   ">=2 token": {
+    "tp": 103,
+    "n": 361,
+    "recall": 28.5
+   },
+   "ada huruf kecil": {
+    "tp": 18,
+    "n": 279,
+    "recall": 6.5
+   },
+   "seen": {
+    "tp": 17,
+    "n": 24,
+    "recall": 70.8
+   }
+  },
+  "Bi-LSTM CRF (ensemble)": {
+   "unseen": {
+    "tp": 323,
+    "n": 1055,
+    "recall": 30.6
+   },
+   "1 token": {
+    "tp": 232,
+    "n": 718,
+    "recall": 32.3
+   },
+   "kapital": {
+    "tp": 323,
+    "n": 800,
+    "recall": 40.4
+   },
+   ">=2 token": {
+    "tp": 106,
+    "n": 361,
+    "recall": 29.4
+   },
+   "ada huruf kecil": {
+    "tp": 15,
+    "n": 279,
+    "recall": 5.4
+   },
+   "seen": {
+    "tp": 15,
+    "n": 24,
+    "recall": 62.5
+   }
+  }
+ }
+}

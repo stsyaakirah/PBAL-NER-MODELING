@@ -1,0 +1,27 @@
+ABL {'P': np.float64(55.0), 'R': np.float64(2.63), 'F1': np.float64(5.02), 'surfF1': 5.04, 'name': 'Kata (lower, norm, stopword)'} 4 s
+ABL {'P': np.float64(48.0), 'R': np.float64(8.61), 'F1': np.float64(14.6), 'surfF1': 14.3, 'name': '+ Bentuk, afiks, sinyal media sosial'} 9 s
+ABL {'P': np.float64(61.54), 'R': np.float64(12.44), 'F1': np.float64(20.7), 'surfF1': 20.69, 'name': '+ Konteks +-2 dan bigram'} 14 s
+ABL {'P': np.float64(64.25), 'R': np.float64(14.83), 'F1': np.float64(24.1), 'surfF1': 24.27, 'name': '+ POS tag'} 15 s
+ABL {'P': np.float64(67.32), 'R': np.float64(12.32), 'F1': np.float64(20.83), 'surfF1': 21.05, 'name': '+ Cluster embedding (lengkap)'} 19 s
+GRID {'P': np.float64(64.56), 'R': np.float64(12.2), 'F1': np.float64(20.52), 'surfF1': 20.67, 'c1': 0.03, 'c2': 0.03}
+GRID {'P': np.float64(66.46), 'R': np.float64(13.04), 'F1': np.float64(21.8), 'surfF1': 21.97, 'c1': 0.03, 'c2': 0.1}
+GRID {'P': np.float64(68.48), 'R': np.float64(13.52), 'F1': np.float64(22.58), 'surfF1': 23.33, 'c1': 0.03, 'c2': 0.3}
+GRID {'P': np.float64(61.63), 'R': np.float64(12.68), 'F1': np.float64(21.03), 'surfF1': 21.08, 'c1': 0.1, 'c2': 0.03}
+GRID {'P': np.float64(67.32), 'R': np.float64(12.32), 'F1': np.float64(20.83), 'surfF1': 21.05, 'c1': 0.1, 'c2': 0.1}
+GRID {'P': np.float64(68.71), 'R': np.float64(13.4), 'F1': np.float64(22.42), 'surfF1': 22.86, 'c1': 0.1, 'c2': 0.3}
+GRID {'P': np.float64(58.57), 'R': np.float64(14.71), 'F1': np.float64(23.52), 'surfF1': 23.52, 'c1': 0.3, 'c2': 0.03}
+GRID {'P': np.float64(62.43), 'R': np.float64(13.52), 'F1': np.float64(22.22), 'surfF1': 22.65, 'c1': 0.3, 'c2': 0.1}
+GRID {'P': np.float64(64.94), 'R': np.float64(13.52), 'F1': np.float64(22.38), 'surfF1': 23.29, 'c1': 0.3, 'c2': 0.3}
+BEST {'c1': 0.3, 'c2': 0.03, 'dev_F1': np.float64(23.52)}
+Traceback (most recent call last):
+  File "/home/claude/proj/run_crf.py", line 42, in <module>
+    R["test_trainonly"] = evaluate(D["test"], pt); json.dump(pt, open("results/pred_crf_trainonly_test.json", "w"))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable

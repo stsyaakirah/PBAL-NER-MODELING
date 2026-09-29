@@ -1,0 +1,11 @@
+{
+ "dev only -> test": 22.9,
+ "pooled random split (85/15, by document)": 42.7,
+ "pooled: held-out entity mentions already seen in training (%)": 23.3,
+ "pooled: n held-out sequences / entities": [
+  494,
+  373
+ ],
+ "train only -> test (official)": 16.8,
+ "train + dev -> test (official)": 27.7
+}

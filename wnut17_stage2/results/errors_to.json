@@ -1,0 +1,34 @@
+{
+ "CRF": {
+  "terlewat": 788,
+  "benar": 123,
+  "salah_tipe": 78,
+  "salah_batas": 31,
+  "salah_batas_dan_tipe": 59,
+  "prediksi_palsu": 106
+ },
+ "SVM": {
+  "salah_tipe": 182,
+  "terlewat": 339,
+  "benar": 325,
+  "salah_batas": 130,
+  "salah_batas_dan_tipe": 103,
+  "prediksi_palsu": 548
+ },
+ "Bi-LSTM CRF (baseline)": {
+  "benar": 333,
+  "salah_tipe": 102,
+  "terlewat": 567,
+  "salah_batas": 54,
+  "salah_batas_dan_tipe": 23,
+  "prediksi_palsu": 68
+ },
+ "Bi-LSTM CRF (ensemble)": {
+  "benar": 338,
+  "salah_tipe": 85,
+  "terlewat": 583,
+  "salah_batas": 47,
+  "salah_batas_dan_tipe": 26,
+  "prediksi_palsu": 55
+ }
+}

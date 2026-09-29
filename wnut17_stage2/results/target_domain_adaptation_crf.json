@@ -1,0 +1,7 @@
+{
+ "F1 official (train + dev)": 27.7,
+ "F1 with the other half of the test added to training": 35.6,
+ "entity mentions seen in training, official (%)": 10.1,
+ "entity mentions seen in training, with other half (%)": 17.2,
+ "sequences added per fold": 643
+}

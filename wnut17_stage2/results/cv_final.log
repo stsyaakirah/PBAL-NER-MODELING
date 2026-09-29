@@ -1,0 +1,8 @@
+reuse fold 0
+reuse fold 1
+reuse fold 2
+CRF fold 3 38.74
+SVM fold 3 38.31
+CRF fold 4 29.29
+SVM fold 4 46.15
+DONE {'crf': [29.97, 39.33, 34.57, np.float64(38.74), np.float64(29.29)], 'svm': [40.94, 47.26, 42.67, np.float64(38.31), np.float64(46.15)], 'crf_mean': 34.38, 'crf_std': 4.22, 'svm_mean': 43.07, 'svm_std': 3.3}

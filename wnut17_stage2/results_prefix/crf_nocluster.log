@@ -1,0 +1,10 @@
+GRID {'P': np.float64(63.93), 'R': np.float64(14.0), 'F1': np.float64(22.96), 'surfF1': 23.18, 'c1': 0.03, 'c2': 0.03}
+GRID {'P': np.float64(64.36), 'R': np.float64(14.47), 'F1': np.float64(23.63), 'surfF1': 23.73, 'c1': 0.03, 'c2': 0.1}
+GRID {'P': np.float64(66.85), 'R': np.float64(14.23), 'F1': np.float64(23.47), 'surfF1': 23.72, 'c1': 0.03, 'c2': 0.3}
+GRID {'P': np.float64(59.8), 'R': np.float64(14.23), 'F1': np.float64(23.0), 'surfF1': 23.39, 'c1': 0.1, 'c2': 0.03}
+GRID {'P': np.float64(64.25), 'R': np.float64(14.83), 'F1': np.float64(24.1), 'surfF1': 24.27, 'c1': 0.1, 'c2': 0.1}
+GRID {'P': np.float64(65.57), 'R': np.float64(14.35), 'F1': np.float64(23.55), 'surfF1': 23.64, 'c1': 0.1, 'c2': 0.3}
+GRID {'P': np.float64(55.79), 'R': np.float64(15.55), 'F1': np.float64(24.32), 'surfF1': 24.54, 'c1': 0.3, 'c2': 0.03}
+GRID {'P': np.float64(61.88), 'R': np.float64(14.95), 'F1': np.float64(24.08), 'surfF1': 24.42, 'c1': 0.3, 'c2': 0.1}
+GRID {'P': np.float64(63.49), 'R': np.float64(14.35), 'F1': np.float64(23.41), 'surfF1': 24.07, 'c1': 0.3, 'c2': 0.3}
+TEST {'P': np.float64(45.74), 'R': np.float64(19.93), 'F1': np.float64(27.76), 'surfF1': 25.64} {'c1': 0.3, 'c2': 0.03, 'dev_F1': np.float64(24.32)}

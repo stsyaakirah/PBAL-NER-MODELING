@@ -1,0 +1,636 @@
+{
+ "crf": {
+  "P": 42.4,
+  "R": 20.67,
+  "F1": 27.79,
+  "surf": 25.62,
+  "tokacc": 92.8,
+  "tokF1": 27.25,
+  "types": {
+   "person": 44.4,
+   "location": 27.9,
+   "corporation": 12.8,
+   "product": 7.4,
+   "creative-work": 8.6,
+   "group": 8.5
+  },
+  "typeP": {
+   "person": 57.1,
+   "location": 29.2,
+   "corporation": 41.7,
+   "product": 16.7,
+   "creative-work": 33.3,
+   "group": 19.1
+  },
+  "typeR": {
+   "person": 36.4,
+   "location": 26.7,
+   "corporation": 7.6,
+   "product": 4.7,
+   "creative-work": 4.9,
+   "group": 5.5
+  },
+  "dev": 25.27,
+  "cfg": {
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.003,
+   "dev_F1": 25.27
+  },
+  "errors": {
+   "terlewat": 673,
+   "benar": 223,
+   "salah_batas": 42,
+   "salah_batas_dan_tipe": 50,
+   "salah_tipe": 91,
+   "prediksi_palsu": 121
+  },
+  "cv": {
+   "folds": [
+    33.93,
+    37.82,
+    38.17,
+    45.2,
+    42.42
+   ],
+   "mean": 39.51,
+   "std": 3.91
+  },
+  "trainonly": 18.17
+ },
+ "svm": {
+  "P": 30.9,
+  "R": 31.79,
+  "F1": 31.34,
+  "surf": 26.71,
+  "tokacc": 92.22,
+  "tokF1": 33.42,
+  "types": {
+   "person": 51.0,
+   "location": 37.1,
+   "corporation": 10.3,
+   "product": 10.0,
+   "creative-work": 12.3,
+   "group": 15.7
+  },
+  "typeP": {
+   "person": 53.9,
+   "location": 29.7,
+   "corporation": 10.0,
+   "product": 9.8,
+   "creative-work": 13.4,
+   "group": 16.2
+  },
+  "typeR": {
+   "person": 48.5,
+   "location": 49.3,
+   "corporation": 10.6,
+   "product": 10.2,
+   "creative-work": 11.3,
+   "group": 15.2
+  },
+  "dev": 41.41,
+  "errors": {
+   "salah_tipe": 209,
+   "terlewat": 283,
+   "salah_batas": 153,
+   "salah_batas_dan_tipe": 71,
+   "benar": 363,
+   "prediksi_palsu": 606
+  },
+  "cv": {
+   "folds": [
+    32.8,
+    39.47,
+    41.92,
+    41.75,
+    38.15
+   ],
+   "mean": 38.82,
+   "std": 3.33
+  },
+  "repair_test": {
+   "P": 23.15,
+   "R": 33.64,
+   "F1": 27.43,
+   "surf": 26.71,
+   "tokacc": 92.07,
+   "tokF1": 31.41,
+   "types": {
+    "person": 48.2,
+    "location": 33.0,
+    "corporation": 9.3,
+    "product": 8.0,
+    "creative-work": 9.8,
+    "group": 14.2
+   },
+   "typeP": {
+    "person": 45.3,
+    "location": 24.7,
+    "corporation": 7.5,
+    "product": 6.0,
+    "creative-work": 8.3,
+    "group": 12.6
+   },
+   "typeR": {
+    "person": 51.5,
+    "location": 50.0,
+    "corporation": 12.1,
+    "product": 11.8,
+    "creative-work": 12.0,
+    "group": 16.4
+   }
+  },
+  "invalid_I": 458,
+  "dev_repair": {
+   "C": 0.03,
+   "repair": {
+    "P": 39.48,
+    "R": 43.54,
+    "F1": 41.41,
+    "surfF1": 41.35
+   },
+   "no_repair": {
+    "P": 49.64,
+    "R": 40.79,
+    "F1": 44.78,
+    "surfF1": 41.35
+   }
+  },
+  "trainonly": 25.75,
+  "grid": [
+   {
+    "P": 39.48,
+    "R": 43.54,
+    "F1": 41.41,
+    "surfF1": 41.35,
+    "C": 0.03
+   },
+   {
+    "P": 37.63,
+    "R": 39.11,
+    "F1": 38.36,
+    "surfF1": 38.33,
+    "C": 0.1
+   },
+   {
+    "P": 36.87,
+    "R": 37.8,
+    "F1": 37.33,
+    "surfF1": 37.62,
+    "C": 0.3
+   }
+  ]
+ },
+ "bilstm": {
+  "P": 56.26,
+  "R": 33.46,
+  "F1": 41.9,
+  "std": 0.84,
+  "seeds": [
+   42.89,
+   41.98,
+   40.83
+  ],
+  "surf": 40.71,
+  "tokacc": 94.35,
+  "types": {
+   "person": 58.3,
+   "location": 50.5,
+   "corporation": 17.6,
+   "product": 18.4,
+   "creative-work": 20.9,
+   "group": 22.3
+  },
+  "epochs": 18,
+  "errors": {
+   "terlewat": 556,
+   "benar": 356,
+   "salah_batas": 46,
+   "salah_tipe": 94,
+   "salah_batas_dan_tipe": 27,
+   "prediksi_palsu": 58
+  },
+  "trainonly_bio": 38.5,
+  "dev_bio": 51.31,
+  "best_ep_bio": 18,
+  "bioes_test": 40.07,
+  "bioes_dev": 50.56,
+  "bioes_ep": 14,
+  "curve_bio": [
+   12.7,
+   35.43,
+   37.5,
+   37.49,
+   43.65,
+   40.79,
+   46.6,
+   43.97,
+   44.98,
+   43.49,
+   47.94,
+   47.46,
+   48.32,
+   50.68,
+   49.7,
+   49.35,
+   48.48,
+   51.31,
+   49.31,
+   49.24,
+   51.1,
+   50.68,
+   51.28,
+   49.55,
+   49.44,
+   49.85
+  ],
+  "curve_bioes": [
+   2.35,
+   31.98,
+   34.75,
+   35.42,
+   43.26,
+   37.57,
+   45.2,
+   43.23,
+   45.42,
+   44.5,
+   48.16,
+   48.25,
+   48.15,
+   50.56,
+   47.78,
+   46.65,
+   48.61,
+   49.07,
+   48.87,
+   48.61,
+   50.27,
+   50.11
+  ],
+  "loss_bio": [
+   6.24,
+   3.4,
+   2.88,
+   2.57,
+   2.34,
+   2.16,
+   2.03,
+   1.86,
+   1.75,
+   1.58,
+   1.51,
+   1.43,
+   1.36,
+   1.31,
+   1.2,
+   1.15,
+   1.11,
+   1.05,
+   0.97,
+   0.94,
+   0.85,
+   0.86,
+   0.81,
+   0.75,
+   0.73,
+   0.69
+  ]
+ },
+ "crf_ablation": [
+  {
+   "P": 42.37,
+   "R": 2.99,
+   "F1": 5.59,
+   "surfF1": 5.7,
+   "name": "Kata"
+  },
+  {
+   "P": 42.68,
+   "R": 8.01,
+   "F1": 13.49,
+   "surfF1": 12.82,
+   "name": "+ Bentuk, afiks, media sosial"
+  },
+  {
+   "P": 48.52,
+   "R": 13.76,
+   "F1": 21.44,
+   "surfF1": 20.99,
+   "name": "+ Konteks +-2, bigram"
+  },
+  {
+   "P": 52.12,
+   "R": 16.15,
+   "F1": 24.66,
+   "surfF1": 24.55,
+   "name": "+ POS tag"
+  },
+  {
+   "P": 53.91,
+   "R": 16.51,
+   "F1": 25.27,
+   "surfF1": 25.42,
+   "name": "+ Cluster embedding"
+  }
+ ],
+ "crf_nocluster_test": 27.76,
+ "crf_first_grid_best": {
+  "c1": 0.3,
+  "c2": 0.03,
+  "dev_F1": 23.52
+ },
+ "crf_grid": [
+  {
+   "P": 53.81,
+   "R": 15.19,
+   "F1": 23.69,
+   "surfF1": 23.79,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.003
+  },
+  {
+   "P": 56.14,
+   "R": 15.31,
+   "F1": 24.06,
+   "surfF1": 24.22,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.01
+  },
+  {
+   "P": 58.72,
+   "R": 15.31,
+   "F1": 24.29,
+   "surfF1": 24.48,
+   "fitur": "lengkap",
+   "c1": 0.1,
+   "c2": 0.03
+  },
+  {
+   "P": 53.91,
+   "R": 16.51,
+   "F1": 25.27,
+   "surfF1": 25.42,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.003
+  },
+  {
+   "P": 55.19,
+   "R": 15.91,
+   "F1": 24.7,
+   "surfF1": 24.92,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.01
+  },
+  {
+   "P": 55.65,
+   "R": 15.31,
+   "F1": 24.02,
+   "surfF1": 24.35,
+   "fitur": "lengkap",
+   "c1": 0.3,
+   "c2": 0.03
+  },
+  {
+   "P": 54.11,
+   "R": 14.95,
+   "F1": 23.43,
+   "surfF1": 23.28,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.003
+  },
+  {
+   "P": 54.7,
+   "R": 15.31,
+   "F1": 23.93,
+   "surfF1": 23.85,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.01
+  },
+  {
+   "P": 56.52,
+   "R": 15.55,
+   "F1": 24.39,
+   "surfF1": 24.38,
+   "fitur": "lengkap",
+   "c1": 1.0,
+   "c2": 0.03
+  },
+  {
+   "P": 52.55,
+   "R": 16.03,
+   "F1": 24.56,
+   "surfF1": 24.63,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.003
+  },
+  {
+   "P": 54.62,
+   "R": 15.55,
+   "F1": 24.21,
+   "surfF1": 24.22,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.01
+  },
+  {
+   "P": 58.67,
+   "R": 15.79,
+   "F1": 24.88,
+   "surfF1": 25.35,
+   "fitur": "tanpa_cluster",
+   "c1": 0.1,
+   "c2": 0.03
+  },
+  {
+   "P": 52.12,
+   "R": 16.15,
+   "F1": 24.66,
+   "surfF1": 24.55,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.003
+  },
+  {
+   "P": 52.92,
+   "R": 16.27,
+   "F1": 24.89,
+   "surfF1": 25.0,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.01
+  },
+  {
+   "P": 55.51,
+   "R": 16.27,
+   "F1": 25.16,
+   "surfF1": 25.29,
+   "fitur": "tanpa_cluster",
+   "c1": 0.3,
+   "c2": 0.03
+  },
+  {
+   "P": 54.55,
+   "R": 15.07,
+   "F1": 23.62,
+   "surfF1": 23.28,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.003
+  },
+  {
+   "P": 54.78,
+   "R": 15.07,
+   "F1": 23.64,
+   "surfF1": 23.28,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.01
+  },
+  {
+   "P": 55.95,
+   "R": 15.19,
+   "F1": 23.89,
+   "surfF1": 23.57,
+   "fitur": "tanpa_cluster",
+   "c1": 1.0,
+   "c2": 0.03
+  }
+ ],
+ "analysis": {
+  "CRF": {
+   "unseen": {
+    "tp": 158,
+    "n": 970,
+    "recall": 16.3
+   },
+   "1 token": {
+    "tp": 152,
+    "n": 718,
+    "recall": 21.2
+   },
+   "kapital": {
+    "tp": 206,
+    "n": 800,
+    "recall": 25.8
+   },
+   "OOV": {
+    "tp": 109,
+    "n": 611,
+    "recall": 17.8
+   },
+   ">=2 token": {
+    "tp": 71,
+    "n": 361,
+    "recall": 19.7
+   },
+   "ada token dikenal": {
+    "tp": 114,
+    "n": 468,
+    "recall": 24.4
+   },
+   "ada huruf kecil": {
+    "tp": 17,
+    "n": 279,
+    "recall": 6.1
+   },
+   "seen": {
+    "tp": 65,
+    "n": 109,
+    "recall": 59.6
+   }
+  },
+  "SVM": {
+   "unseen": {
+    "tp": 272,
+    "n": 970,
+    "recall": 28.0
+   },
+   "1 token": {
+    "tp": 295,
+    "n": 718,
+    "recall": 41.1
+   },
+   "kapital": {
+    "tp": 330,
+    "n": 800,
+    "recall": 41.2
+   },
+   "OOV": {
+    "tp": 216,
+    "n": 611,
+    "recall": 35.4
+   },
+   ">=2 token": {
+    "tp": 68,
+    "n": 361,
+    "recall": 18.8
+   },
+   "ada token dikenal": {
+    "tp": 147,
+    "n": 468,
+    "recall": 31.4
+   },
+   "ada huruf kecil": {
+    "tp": 33,
+    "n": 279,
+    "recall": 11.8
+   },
+   "seen": {
+    "tp": 91,
+    "n": 109,
+    "recall": 83.5
+   }
+  },
+  "Bi-LSTM CRF": {
+   "unseen": {
+    "tp": 273,
+    "n": 970,
+    "recall": 28.1
+   },
+   "1 token": {
+    "tp": 230,
+    "n": 718,
+    "recall": 32.0
+   },
+   "kapital": {
+    "tp": 329,
+    "n": 800,
+    "recall": 41.1
+   },
+   "OOV": {
+    "tp": 176,
+    "n": 611,
+    "recall": 28.8
+   },
+   ">=2 token": {
+    "tp": 126,
+    "n": 361,
+    "recall": 34.9
+   },
+   "ada token dikenal": {
+    "tp": 180,
+    "n": 468,
+    "recall": 38.5
+   },
+   "ada huruf kecil": {
+    "tp": 27,
+    "n": 279,
+    "recall": 9.7
+   },
+   "seen": {
+    "tp": 83,
+    "n": 109,
+    "recall": 76.1
+   }
+  }
+ }
+}

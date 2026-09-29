@@ -1,0 +1,8 @@
+ensemble delta 0.0 52.73 41.47
+ensemble delta 0.5 54.13 42.29
+ensemble delta 1.0 55.73 41.57
+ensemble delta 1.5 55.97 40.41
+ensemble delta 2.0 54.98 38.83
+ensemble delta 2.5 52.6 36.72
+ensemble delta 3.0 49.94 34.49
+ENS done | dev@0: 52.73 best single dev: 53.41 | best delta 1.5 | test@0 41.47

@@ -1,0 +1,5 @@
+fitur 28436 nnz 13911857
+/usr/local/lib/python3.12/dist-packages/sklearn/svm/_base.py:1258: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+max_iter 100 fit 124 s devF1 38.36
+max_iter 300 fit 126 s devF1 38.36
