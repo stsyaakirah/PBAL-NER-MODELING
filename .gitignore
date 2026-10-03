@@ -1,0 +1,21 @@
+# OS / editor junk
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large downloadable / regenerable artifacts (see wnut17_stage2/README_PartB_and_RoBERTa.md)
+# GloVe raw file (795MB) and the derived vector subset (regenerate with prep_glove.py)
+wnut17_stage2/glove-twitter-200.gz
+wnut17_stage2/glove_sub.npz
+
+# Frozen RoBERTa embedding caches (~300MB; regenerate with extract_roberta.py)
+wnut17_stage2/results/roberta_*.pkl
+
+# Trained model weights (regenerate with run_local.sh / ensemble_multiseed.py)
+wnut17_stage2/results/ckpt_*.pkl
+
+# Local session backup of Section A results (duplicate; not needed in git)
+wnut17_stage2/results_backup_preopsi1/

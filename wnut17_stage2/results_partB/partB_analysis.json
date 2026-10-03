@@ -1,0 +1,461 @@
+{
+ "CRF": {
+  "entity": {
+   "precision": 54.25,
+   "recall": 32.42,
+   "f1": 40.59
+  },
+  "surface_f1": 38.5,
+  "token_acc": 93.92,
+  "per_type": {
+   "person": {
+    "f1": 52.13,
+    "support": 113.0
+   },
+   "location": {
+    "f1": 48.72,
+    "support": 41.0
+   },
+   "corporation": {
+    "f1": 14.29,
+    "support": 9.0
+   },
+   "product": {
+    "f1": 24.24,
+    "support": 22.0
+   },
+   "creative-work": {
+    "f1": 17.78,
+    "support": 31.0
+   },
+   "group": {
+    "f1": 23.53,
+    "support": 40.0
+   }
+  },
+  "bootstrap_test_f1": {
+   "mean": 40.53,
+   "lo": 33.91,
+   "hi": 47.26
+  },
+  "error_breakdown": {
+   "salah_tipe": 19,
+   "salah_batas_dan_tipe": 12,
+   "terlewat": 130,
+   "benar": 83,
+   "salah_batas": 12,
+   "prediksi_palsu": 25
+  },
+  "confusion": {
+   "matrix": [
+    [
+     49,
+     2,
+     0,
+     1,
+     1,
+     1,
+     8,
+     51
+    ],
+    [
+     1,
+     19,
+     1,
+     0,
+     0,
+     1,
+     4,
+     15
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     7
+    ],
+    [
+     0,
+     0,
+     0,
+     4,
+     2,
+     0,
+     2,
+     14
+    ],
+    [
+     5,
+     0,
+     0,
+     0,
+     4,
+     0,
+     4,
+     18
+    ],
+    [
+     0,
+     3,
+     1,
+     0,
+     0,
+     6,
+     5,
+     25
+    ],
+    [
+     10,
+     6,
+     1,
+     4,
+     3,
+     1,
+     0,
+     0
+    ]
+   ],
+   "rows": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "SPURIOUS"
+   ],
+   "cols": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "wrong boundary",
+    "missed"
+   ]
+  },
+  "recall_leaked_vs_unseen": {
+   "genuinely unseen": {
+    "tp": 48,
+    "n": 202,
+    "recall": 23.8
+   },
+   "leaked (seen in new train)": {
+    "tp": 35,
+    "n": 54,
+    "recall": 64.8
+   }
+  }
+ },
+ "SVM": {
+  "entity": {
+   "precision": 36.84,
+   "recall": 49.22,
+   "f1": 42.14
+  },
+  "surface_f1": 35.48,
+  "token_acc": 92.2,
+  "per_type": {
+   "person": {
+    "f1": 57.25,
+    "support": 113.0
+   },
+   "location": {
+    "f1": 48.94,
+    "support": 41.0
+   },
+   "corporation": {
+    "f1": 40.0,
+    "support": 9.0
+   },
+   "product": {
+    "f1": 9.52,
+    "support": 22.0
+   },
+   "creative-work": {
+    "f1": 24.24,
+    "support": 31.0
+   },
+   "group": {
+    "f1": 27.27,
+    "support": 40.0
+   }
+  },
+  "bootstrap_test_f1": {
+   "mean": 36.03,
+   "lo": 30.82,
+   "hi": 41.23
+  },
+  "error_breakdown": {
+   "salah_tipe": 41,
+   "salah_batas": 38,
+   "salah_batas_dan_tipe": 17,
+   "benar": 135,
+   "terlewat": 25,
+   "prediksi_palsu": 231
+  },
+  "confusion": {
+   "matrix": [
+    [
+     83,
+     0,
+     0,
+     2,
+     1,
+     4,
+     13,
+     10
+    ],
+    [
+     0,
+     24,
+     0,
+     0,
+     1,
+     1,
+     9,
+     6
+    ],
+    [
+     1,
+     1,
+     5,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    [
+     5,
+     1,
+     0,
+     3,
+     1,
+     1,
+     8,
+     3
+    ],
+    [
+     4,
+     0,
+     0,
+     3,
+     8,
+     0,
+     15,
+     1
+    ],
+    [
+     3,
+     4,
+     2,
+     4,
+     1,
+     12,
+     10,
+     4
+    ],
+    [
+     66,
+     30,
+     13,
+     51,
+     43,
+     28,
+     0,
+     0
+    ]
+   ],
+   "rows": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "SPURIOUS"
+   ],
+   "cols": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "wrong boundary",
+    "missed"
+   ]
+  },
+  "recall_leaked_vs_unseen": {
+   "genuinely unseen": {
+    "tp": 95,
+    "n": 202,
+    "recall": 47.0
+   },
+   "leaked (seen in new train)": {
+    "tp": 40,
+    "n": 54,
+    "recall": 74.1
+   }
+  }
+ },
+ "Bi-LSTM CRF": {
+  "entity": {
+   "precision": 57.97,
+   "recall": 46.88,
+   "f1": 51.84
+  },
+  "surface_f1": 50.82,
+  "token_acc": 95.16,
+  "per_type": {
+   "person": {
+    "f1": 67.26,
+    "support": 113.0
+   },
+   "location": {
+    "f1": 58.54,
+    "support": 41.0
+   },
+   "corporation": {
+    "f1": 25.0,
+    "support": 9.0
+   },
+   "product": {
+    "f1": 18.75,
+    "support": 22.0
+   },
+   "creative-work": {
+    "f1": 32.65,
+    "support": 31.0
+   },
+   "group": {
+    "f1": 24.14,
+    "support": 40.0
+   }
+  },
+  "bootstrap_test_f1": {
+   "mean": 51.78,
+   "lo": 45.39,
+   "hi": 58.38
+  },
+  "error_breakdown": {
+   "terlewat": 87,
+   "salah_tipe": 25,
+   "benar": 120,
+   "salah_batas": 16,
+   "salah_batas_dan_tipe": 8,
+   "prediksi_palsu": 35
+  },
+  "confusion": {
+   "matrix": [
+    [
+     76,
+     0,
+     0,
+     0,
+     0,
+     1,
+     10,
+     26
+    ],
+    [
+     1,
+     24,
+     0,
+     1,
+     0,
+     2,
+     5,
+     8
+    ],
+    [
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     7
+    ],
+    [
+     3,
+     0,
+     1,
+     3,
+     1,
+     1,
+     1,
+     12
+    ],
+    [
+     2,
+     0,
+     2,
+     1,
+     8,
+     1,
+     4,
+     13
+    ],
+    [
+     1,
+     6,
+     0,
+     1,
+     0,
+     7,
+     4,
+     21
+    ],
+    [
+     17,
+     6,
+     2,
+     4,
+     5,
+     1,
+     0,
+     0
+    ]
+   ],
+   "rows": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "SPURIOUS"
+   ],
+   "cols": [
+    "person",
+    "location",
+    "corporation",
+    "product",
+    "creative-work",
+    "group",
+    "wrong boundary",
+    "missed"
+   ]
+  },
+  "recall_leaked_vs_unseen": {
+   "genuinely unseen": {
+    "tp": 83,
+    "n": 202,
+    "recall": 41.1
+   },
+   "leaked (seen in new train)": {
+    "tp": 37,
+    "n": 54,
+    "recall": 68.5
+   }
+  }
+ }
+}

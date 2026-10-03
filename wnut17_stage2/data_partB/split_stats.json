@@ -1,0 +1,145 @@
+{
+ "seed": 42,
+ "unit": "document (source_file, doc_id)",
+ "documents": {
+  "total": 3296,
+  "train": 2636,
+  "dev": 329,
+  "test": 331
+ },
+ "counts": {
+  "train": {
+   "seqs": 5030,
+   "tokens": 90785,
+   "entities": 3378
+  },
+  "dev": {
+   "seqs": 329,
+   "tokens": 5434,
+   "entities": 256
+  },
+  "test": {
+   "seqs": 331,
+   "tokens": 5638,
+   "entities": 256
+  }
+ },
+ "achieved_pct": {
+  "train": {
+   "seqs": 88.4,
+   "tokens": 89.13,
+   "entities": 86.84
+  },
+  "dev": {
+   "seqs": 5.78,
+   "tokens": 5.33,
+   "entities": 6.58
+  },
+  "test": {
+   "seqs": 5.82,
+   "tokens": 5.54,
+   "entities": 6.58
+  }
+ },
+ "conservation_ok": true,
+ "bio_violations": {
+  "train": 0,
+  "dev": 0,
+  "test": 0
+ },
+ "leakage": {
+  "dev": {
+   "mentions": 256,
+   "in_train": 47,
+   "leak_pct": 18.4
+  },
+  "test": {
+   "mentions": 256,
+   "in_train": 54,
+   "leak_pct": 21.1
+  }
+ },
+ "entities_in_multiple_splits": 81,
+ "top_repeated_multi_split": [
+  [
+   "trump",
+   46
+  ],
+  [
+   "god",
+   11
+  ],
+  [
+   "chicago",
+   10
+  ],
+  [
+   "london",
+   8
+  ],
+  [
+   "ireland",
+   8
+  ],
+  [
+   "obama",
+   7
+  ],
+  [
+   "reddit",
+   6
+  ],
+  [
+   "calgary",
+   6
+  ],
+  [
+   "europe",
+   6
+  ],
+  [
+   "/ r / politics",
+   6
+  ],
+  [
+   "minecraft",
+   5
+  ],
+  [
+   "india",
+   5
+  ],
+  [
+   "democrats",
+   5
+  ],
+  [
+   "china",
+   4
+  ],
+  [
+   "taylor",
+   4
+  ],
+  [
+   "kishan",
+   4
+  ],
+  [
+   "snickers",
+   4
+  ],
+  [
+   "earth",
+   4
+  ],
+  [
+   "drdo",
+   4
+  ],
+  [
+   "bill",
+   4
+  ]
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "dev": {
+  "entity": {
+   "precision": 0.4861111111111111,
+   "recall": 0.2734375,
+   "f1": 0.35
+  },
+  "per_type": {
+   "person": {
+    "precision": 0.6046511627906976,
+    "recall": 0.5048543689320388,
+    "f1-score": 0.5502645502645502,
+    "support": 103.0
+   },
+   "location": {
+    "precision": 0.5357142857142857,
+    "recall": 0.3125,
+    "f1-score": 0.39473684210526316,
+    "support": 48.0
+   },
+   "corporation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13.0
+   },
+   "product": {
+    "precision": 0.09090909090909091,
+    "recall": 0.03571428571428571,
+    "f1-score": 0.05128205128205127,
+    "support": 28.0
+   },
+   "creative-work": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 26.0
+   },
+   "group": {
+    "precision": 0.2222222222222222,
+    "recall": 0.05263157894736842,
+    "f1-score": 0.0851063829787234,
+    "support": 38.0
+   }
+  },
+  "surface": {
+   "precision": 0.48936170212765956,
+   "recall": 0.2816326530612245,
+   "f1": 0.35751295336787564
+  },
+  "token_acc": 0.9366948840633051,
+  "token_f1_nonO": {
+   "precision": 0.484251968503937,
+   "recall": 0.30445544554455445,
+   "f1": 0.37386018237082064
+  }
+ },
+ "test": {
+  "entity": {
+   "precision": 0.5424836601307189,
+   "recall": 0.32421875,
+   "f1": 0.40586797066014674
+  },
+  "per_type": {
+   "person": {
+    "precision": 0.6533333333333333,
+    "recall": 0.4336283185840708,
+    "f1-score": 0.5212765957446809,
+    "support": 113.0
+   },
+   "location": {
+    "precision": 0.5135135135135135,
+    "recall": 0.4634146341463415,
+    "f1-score": 0.48717948717948717,
+    "support": 41.0
+   },
+   "corporation": {
+    "precision": 0.2,
+    "recall": 0.1111111111111111,
+    "f1-score": 0.14285714285714285,
+    "support": 9.0
+   },
+   "product": {
+    "precision": 0.36363636363636365,
+    "recall": 0.18181818181818182,
+    "f1-score": 0.24242424242424246,
+    "support": 22.0
+   },
+   "creative-work": {
+    "precision": 0.2857142857142857,
+    "recall": 0.12903225806451613,
+    "f1-score": 0.17777777777777778,
+    "support": 31.0
+   },
+   "group": {
+    "precision": 0.5454545454545454,
+    "recall": 0.15,
+    "f1-score": 0.2352941176470588,
+    "support": 40.0
+   }
+  },
+  "surface": {
+   "precision": 0.5106382978723404,
+   "recall": 0.3090128755364807,
+   "f1": 0.3850267379679144
+  },
+  "token_acc": 0.9391628236963462,
+  "token_f1_nonO": {
+   "precision": 0.4746376811594203,
+   "recall": 0.34293193717277487,
+   "f1": 0.3981762917933131
+  }
+ },
+ "test_errors": {
+  "salah_tipe": 19,
+  "salah_batas_dan_tipe": 12,
+  "terlewat": 130,
+  "benar": 83,
+  "salah_batas": 12,
+  "prediksi_palsu": 25
+ }
+}
