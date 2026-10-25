@@ -176,3 +176,11 @@ File `glove-twitter-200.gz`, `glove_sub.npz`, `results/roberta_*.pkl`, dan `resu
 
 - Derczynski, L., Nichols, E., van Erp, M., & Limsopatham, N. (2017). *Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition*.
 - Liu, Y. et al. (2019). *RoBERTa: A Robustly Optimized BERT Pretraining Approach*.
+
+## Team Members
+
+- Amelia Gizzela Sheehan Auni (25/574579/PPA/07252)
+- Aulia Gita Pratiwi (25/572701/PPA/07197)
+- St. Syakirah (25/573284/PPA/07217)
+- Aditya Iko Winarko (25/574566/PPA/07251)
+- Royan Aditya (26/589551/PPA/07364)
